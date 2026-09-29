@@ -1,0 +1,15 @@
+{
+  "name": "nsaplayset",
+  "private": true,
+  "scripts": {
+    "build": "bash scripts/build.sh",
+    "preview": "npm run build && wrangler pages dev",
+    "deploy": "npm run build && wrangler pages deploy"
+  },
+  "devDependencies": {
+    "wrangler": "4.143.1"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

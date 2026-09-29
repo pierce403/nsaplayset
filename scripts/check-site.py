@@ -7,6 +7,12 @@ from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import urlsplit, unquote, urljoin
 import csv
+import argparse
+
+parser = argparse.ArgumentParser(description=__doc__)
+parser.add_argument('--base-url', default='https://nsaplayset.org')
+base_url = parser.parse_args().base_url.rstrip('/')
+local_hosts = {'nsaplayset.org', urlsplit(base_url).netloc}
 
 ROOT = Path(__file__).resolve().parents[1]
 PUBLIC = ROOT / 'public'
@@ -50,7 +56,7 @@ def check_url(url, origin):
     parts = urlsplit(url)
     if parts.scheme and parts.scheme not in ('http', 'https'):
         return
-    if parts.netloc and parts.netloc != 'nsaplayset.org':
+    if parts.netloc and parts.netloc not in local_hosts:
         return
     path = parts.path or '/'
     fragment = parts.fragment
@@ -74,7 +80,7 @@ assert (PUBLIC / '404.html').is_file(), 'Cloudflare needs a real top-level 404.h
 for path, doc in documents.items():
     route = '/' + path.relative_to(PUBLIC).as_posix()
     for link in doc.links:
-        check_url(urljoin('https://nsaplayset.org' + route, link), route)
+        check_url(urljoin(base_url + route, link), route)
 for source in redirects:
     check_url(source, '_redirects')
 with (ROOT / 'docs/legacy-urls.csv').open() as file:

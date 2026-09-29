@@ -9,14 +9,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Install pinned Zola
-        run: bash scripts/install-zola.sh
-      - name: Build
-        run: .tools/zola build
-      - name: Check routes and local links
-        run: python3 scripts/check-site.py
-      - name: Check JavaScript syntax
-        run: node --check static/catalog.js
+      - name: Build and validate production
+        run: bash scripts/build.sh
+      - name: Build and validate preview
+        run: bash scripts/build.sh
+        env:
+          CF_PAGES_BRANCH: ci-preview
+          CF_PAGES_URL: https://ci-preview.nsaplayset.pages.dev
+      - name: Restore production output for artifact
+        run: bash scripts/build.sh
       - name: Upload static output
         uses: actions/upload-artifact@v4
         with:

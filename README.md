@@ -1,6 +1,6 @@
 # NSA Playset
 
-A static, source-backed security research catalog built with Zola. Source: [pierce403/nsaplayset](https://github.com/pierce403/nsaplayset). Prepared for Cloudflare Pages. No backend, database, npm dependencies, external fonts, analytics, or runtime API calls.
+A static, source-backed security research catalog built with Zola. Source: [pierce403/nsaplayset](https://github.com/pierce403/nsaplayset). Prepared for Cloudflare Pages. No backend, database, runtime npm dependencies, external fonts, analytics, or runtime API calls. Wrangler is a pinned development dependency for Cloudflare preview and deployment.
 
 ## Local development
 
@@ -16,12 +16,10 @@ On other systems install that version from Zola's official releases, then run `z
 ## Build and verify
 
 ```sh
-.tools/zola build
-python3 scripts/check-site.py
-node --check static/catalog.js
+bash scripts/build.sh
 ```
 
-Output is `public/`. The delivery ZIP includes a prebuilt copy for review, but generated output is ignored by Git. To view that copy without installing Zola, run `python3 -m http.server --directory public 8000` and open http://localhost:8000. Local Python serving does not apply Cloudflare `_redirects` or `_headers`; those are validated structurally by the checker and take effect on Cloudflare.
+The build installs the pinned Zola if needed, generates `public/`, and checks local links, redirects, and JavaScript syntax. Requires Linux x86_64, Bash, curl, tar, Python 3.11+, and Node.js 22+. Generated output is ignored by Git. To view the output, run `python3 -m http.server --directory public 8000` and open http://localhost:8000. Local Python serving does not apply Cloudflare `_redirects` or `_headers`; those are validated structurally by the checker and take effect on Cloudflare.
 
 ## Cloudflare Pages
 
@@ -30,17 +28,33 @@ Connect `pierce403/nsaplayset` with:
 | Setting | Value |
 | --- | --- |
 | Production branch | `main` |
-| Build command | `bash scripts/install-zola.sh && .tools/zola build` |
+| Framework preset | None (custom build) |
+| Build command | `bash scripts/build.sh` |
 | Build output | `public` |
 | Root directory | Repository root |
 
-The installer pins both the version and SHA-256 of the release archive used during validation. Update both together for upgrades. A compatible preinstalled Zola can instead use `zola build`.
+The installer pins both the version and SHA-256 of the release archive used during validation. Update both together for upgrades. The checked-in `wrangler.jsonc` declares the Pages project name and output directory. This is a Pages configuration; do not use `wrangler deploy` (the Workers command).
+
+Production builds keep `https://nsaplayset.org` as their base URL. Non-`main` Cloudflare branches use `CF_PAGES_URL`, so project links and canonical URLs stay on the preview. Preview output also disallows crawling and adds `X-Robots-Tag: noindex`. The same build and checks run in GitHub Actions for both modes. See [Cloudflare’s Zola guide](https://developers.cloudflare.com/pages/framework-guides/deploy-a-zola-site/).
 
 Set up `nsaplayset.org` and `www.nsaplayset.org` in Cloudflare, including certificates for both. Use a Cloudflare Redirect Rule from `www` to the apex domain that preserves path and query string; also enable HTTP-to-HTTPS redirection. These account-level changes are **not applied** by this repository. Production canonical URLs and the sitemap use `https://nsaplayset.org`.
 
 The generated `_redirects` handles historical extensionless paths and temporary missing-asset routes. The top-level `404.html` ensures genuine unknown URLs remain 404s rather than an SPA homepage fallback. Verify response codes and host redirects after deployment; a static build cannot validate Cloudflare account configuration.
 
-No credentials or deployment secrets are required in this repo. GitHub Actions builds and checks the output, but does not publish it. Cloudflare deployment is configured separately.
+No credentials or deployment secrets are required in this repo. GitHub Actions builds and checks the output, but does not publish it. Cloudflare deployment is configured separately. Create the Pages project using **Connect to Git** to retain automatic builds on pushes; do not create a Direct Upload project if Git integration is desired.
+
+### Local Cloudflare preview
+
+```sh
+npm ci
+npm run preview
+```
+
+Open the URL printed by Wrangler. Unlike the Python server, this applies Cloudflare redirects and headers and exercises the custom 404. Wrangler requires Node.js 22+. In another terminal, run `python3 scripts/check-http.py http://127.0.0.1:8788` (adjust the port to match Wrangler). After deployment, run the same check against `https://nsaplayset.org`.
+
+### Manual deployment to the connected Pages project
+
+After creating the Git-connected Pages project named `nsaplayset`, authenticate to the intended Cloudflare account with `npx wrangler login`, then run `npm run deploy`. Prefer the normal Git integration for releases. Never commit API tokens. Deployment and custom-domain configuration have not been performed as part of repository preparation.
 
 ## Add or edit a project
 
