@@ -1,0 +1,11 @@
+path,evidence,status,source
+/slotscreamer,confirmed-original,page,https://securinghardware.com/articles/SLOTSCREAMER/
+/turnipschool,confirmed-original,page,https://link.springer.com/article/10.1007/s10207-025-01044-w
+/project-requirements,confirmed-original,rewritten-guidance,https://seclists.org/pauldotcom/2014/q3/1
+/twilightvegetable/,mirror-derived,page,https://gbppr.net/nsaplayset/twilightvegetable/
+/congaflock/,mirror-derived,page,https://www.gbppr.net/nsaplayset/congaflock/
+/saviorburst/,mirror-derived,page,https://gbppr.net/nsaplayset/saviorburst/
+/openproblems/,mirror-derived,rewritten-guidance,https://gbppr.net/nsaplayset/openproblems/
+/ossmann_hitb2014.pdf,confirmed-original,temporary-recovery-note,https://hardwear.io/document/NSA-Playset-Bridging-the-Airgap-without-Radios-by-Michael-.pdf
+/nsa_ant_catalog.pdf,confirmed-original,temporary-recovery-note,https://gbppr.net/nsaplayset/openproblems/
+/twilightvegetable/NSA-PLAYSET-GSM.pdf,mirror-derived,temporary-recovery-note,https://gbppr.net/nsaplayset/twilightvegetable/NSA-PLAYSET-GSM.pdf

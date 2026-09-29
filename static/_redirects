@@ -1,0 +1,25 @@
+# Keep original root-level project routes. Zola emits /name/index.html.
+# Explicit slash redirects preserve historical extensionless inbound links.
+/slotscreamer /slotscreamer/ 301
+/turnipschool /turnipschool/ 301
+/project-requirements /project-requirements/ 301
+/twilightvegetable /twilightvegetable/ 301
+/congaflock /congaflock/ 301
+/saviorburst /saviorburst/ 301
+/openproblems /openproblems/ 301
+/halibutdugout /halibutdugout/ 301
+/alloyviper /alloyviper/ 301
+# Convenience aliases, not claims of historical URL spelling.
+/catalog / 301
+/catalog/ / 301
+/projects / 301
+/projects/ / 301
+/open-problems /openproblems/ 301
+/open-problems/ /openproblems/ 301
+/contribute /contributions/ 301
+/contribute/ /contributions/ 301
+# Missing assets: temporary redirects to an honest recovery note.
+# Remove each rule when the exact original file is restored under static/.
+/ossmann_hitb2014.pdf /archive/#missing-downloads 302
+/nsa_ant_catalog.pdf /archive/#missing-downloads 302
+/twilightvegetable/NSA-PLAYSET-GSM.pdf /archive/#missing-downloads 302

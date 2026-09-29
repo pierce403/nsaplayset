@@ -1,0 +1,2 @@
+{% extends "base.html" %}
+{% block content %}<div class="wrap document-page"><a class="breadcrumb" href="/">NSA Playset / {{ page.title }}</a><header><div class="eyebrow">PROJECT NOTES</div><h1>{{ page.title }}</h1>{% if page.description %}<p class="lead">{{ page.description }}</p>{% endif %}</header><article class="prose">{{ page.content | safe }}</article></div>{% endblock content %}

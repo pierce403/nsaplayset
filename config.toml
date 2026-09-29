@@ -1,0 +1,10 @@
+base_url = "https://nsaplayset.org"
+title = "NSA Playset"
+description = "An open catalog of security research hardware and software."
+default_language = "en"
+compile_sass = false
+build_search_index = false
+generate_feeds = false
+
+[extra]
+edition = "2026"
