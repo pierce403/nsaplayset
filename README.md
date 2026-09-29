@@ -1,6 +1,6 @@
 # NSA Playset
 
-A static, source-backed security research catalog built with Zola. Source: [pierce403/nsaplayset](https://github.com/pierce403/nsaplayset). Prepared for Cloudflare Pages. No backend, database, runtime npm dependencies, external fonts, analytics, or runtime API calls. Wrangler is a pinned development dependency for Cloudflare preview and deployment.
+A static, source-backed security research catalog built with Zola. Source: [pierce403/nsaplayset](https://github.com/pierce403/nsaplayset). Live at [nsaplayset.org](https://nsaplayset.org) on Cloudflare Pages. No backend, database, runtime npm dependencies, external fonts, analytics, or runtime API calls. Wrangler is a pinned development dependency for Cloudflare preview and deployment.
 
 ## Local development
 
@@ -23,7 +23,7 @@ The build installs the pinned Zola if needed, generates `public/`, and checks lo
 
 ## Cloudflare Pages
 
-Connect `pierce403/nsaplayset` with:
+Pages project `nsaplayset` is connected to `pierce403/nsaplayset`. Pushes to `main` automatically build and deploy with:
 
 | Setting | Value |
 | --- | --- |
@@ -37,11 +37,11 @@ The installer pins both the version and SHA-256 of the release archive used duri
 
 Production builds keep `https://nsaplayset.org` as their base URL. Non-`main` Cloudflare branches use `CF_PAGES_URL`, so project links and canonical URLs stay on the preview. Preview output also disallows crawling and adds `X-Robots-Tag: noindex`. The same build and checks run in GitHub Actions for both modes. See [Cloudflare’s Zola guide](https://developers.cloudflare.com/pages/framework-guides/deploy-a-zola-site/).
 
-Set up `nsaplayset.org` and `www.nsaplayset.org` in Cloudflare, including certificates for both. Use a Cloudflare Redirect Rule from `www` to the apex domain that preserves path and query string; also enable HTTP-to-HTTPS redirection. These account-level changes are **not applied** by this repository. Production canonical URLs and the sitemap use `https://nsaplayset.org`.
+Both `nsaplayset.org` and `www.nsaplayset.org` are attached in Cloudflare with HTTPS. The active Cloudflare Redirect Rule `Redirect www to nsaplayset.org` matches `http.host eq "www.nsaplayset.org"`, redirects with 301 to `concat("https://nsaplayset.org", http.request.uri.path)`, and preserves the query string. HTTP also redirects to HTTPS. These account-level settings are managed in the Cloudflare dashboard, not by the repository. Production canonical URLs and the sitemap use `https://nsaplayset.org`.
 
 The generated `_redirects` handles historical extensionless paths and temporary missing-asset routes. The top-level `404.html` ensures genuine unknown URLs remain 404s rather than an SPA homepage fallback. Verify response codes and host redirects after deployment; a static build cannot validate Cloudflare account configuration.
 
-No credentials or deployment secrets are required in this repo. GitHub Actions builds and checks the output, but does not publish it. Cloudflare deployment is configured separately. Create the Pages project using **Connect to Git** to retain automatic builds on pushes; do not create a Direct Upload project if Git integration is desired.
+No credentials or deployment secrets are required in this repo. GitHub Actions builds and checks the output, but does not publish it. Cloudflare builds from Git through the existing **Connect to Git** integration. Keep this integration for automatic releases.
 
 ### Local Cloudflare preview
 
@@ -54,7 +54,7 @@ Open the URL printed by Wrangler. Unlike the Python server, this applies Cloudfl
 
 ### Manual deployment to the connected Pages project
 
-After creating the Git-connected Pages project named `nsaplayset`, authenticate to the intended Cloudflare account with `npx wrangler login`, then run `npm run deploy`. Prefer the normal Git integration for releases. Never commit API tokens. Deployment and custom-domain configuration have not been performed as part of repository preparation.
+For an exceptional manual release to the existing Pages project `nsaplayset`, authenticate to the intended Cloudflare account with `npx wrangler login`, then run `npm run deploy`. Prefer the normal Git integration for releases. Never commit API tokens.
 
 ## Add or edit a project
 

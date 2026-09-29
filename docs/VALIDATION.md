@@ -6,16 +6,21 @@
 - All generated local links, asset references, fragments, 20 redirects, and recorded legacy routes pass `scripts/check-site.py`.
 - `node --check static/catalog.js` passes.
 - Filtering logic exercised against metadata parsed from the generated homepage: query-string initialization, combined search/category, empty state, reset, case-insensitive search, URL-escaped input, and category-only results all pass. This used a DOM harness, not a browser.
-- No browser rendering or interaction QA was available in this environment. Responsive CSS and keyboard/accessibility affordances are implemented, but desktop/mobile visual review remains a pre-launch check.
-- Cloudflare Pages local runtime (Wrangler 4.143.1): all 20 redirect statuses and destinations, homepage/project/assets responses, security headers, and unknown-path HTTP 404 passed `scripts/check-http.py`. Browser CSP enforcement, public hosting, DNS, and TLS remain unverified.
+- Live desktop homepage rendering was inspected in Brave. Search for `twilight` returned one project, and Clear filters restored all seven. Mobile layout and comprehensive accessibility review remain unverified.
+- Cloudflare Pages local runtime (Wrangler 4.143.1): all 20 redirect statuses and destinations, homepage/project/assets responses, security headers, and unknown-path HTTP 404 passed `scripts/check-http.py`.
 - Production and preview builds pass the same site checks. Preview project links use the preview origin; preview robots.txt and X-Robots-Tag block indexing. Production output was rebuilt afterward.
 - Pinned Wrangler dependencies installed with `npm ci`; npm audit reported zero vulnerabilities.
 - External source availability and historical hardware compatibility are not validated by the local checks.
 
-## Before launch
+## Production launch
 
-1. Review the site in a desktop and mobile browser, including filter controls, project pages, and an unknown URL.
-2. Commit and push the prepared source to the configured GitHub repository.
-3. Connect Cloudflare Pages as described in README.md and configure both domain variants.
-4. Run `python3 scripts/check-http.py https://nsaplayset.org` against production, then separately verify HTTP-to-HTTPS and www-to-apex redirects preserve path and query string.
-5. Recover missing original assets as available. They are not required for the site build, but the historical archive remains incomplete without them.
+- Initial Git deployment: commit `89a8bf0be865d889245940a937cc39741b8ed8d9`, Pages deployment `05f45704-096d-458f-b12e-ed4f5f42aaa3`.
+- Pages project `nsaplayset` is connected to `pierce403/nsaplayset`, production branch `main`, with automatic deployments enabled.
+- Public `https://nsaplayset.org` and `https://nsaplayset.pages.dev` pass `scripts/check-http.py`: all 20 redirect statuses and destinations, representative HTML/assets, security headers, and genuine HTTP 404.
+- Apex and www HTTPS certificates validate. HTTP apex, HTTP www, and HTTPS www return 301 to HTTPS apex while preserving `/twilightvegetable/?check=redirect%20test&x=1`.
+- Public homepage, `site.css`, and `catalog.js` match local production output byte-for-byte by SHA-256.
+- The HTTP checker identifies itself with a project User-Agent because Cloudflare rejects Python's default User-Agent with error 1010. No Cloudflare security controls were disabled.
+
+## Remaining editorial work
+
+Recover missing original assets as available. They are not required for the site build, but the historical archive remains incomplete without them. External source availability and historical hardware compatibility are outside these deployment checks.
