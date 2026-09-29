@@ -7,7 +7,7 @@
   {% if page %}{% set page_title = page.title ~ " — " ~ config.title %}{% if page.description %}{% set page_description = page.description %}{% endif %}{% endif %}
   <title>{{ page_title }}</title>
   <meta name="description" content="{{ page_description }}">
-  <meta name="theme-color" content="#15241e">
+  <meta name="theme-color" content="#ffffff">
   {% if current_url %}<link rel="canonical" href="{{ current_url | safe }}">{% endif %}
   <meta property="og:title" content="{{ page_title }}">
   <meta property="og:description" content="{{ page_description }}">
@@ -19,7 +19,7 @@
 <body>
   <a class="skip" href="#main">Skip to content</a>
   <header class="site-header">
-    <a class="wordmark" href="/" aria-label="NSA Playset home"><span class="brand-mark" aria-hidden="true">N/P</span><span>NSA PLAYSET<small>OPEN SECURITY RESEARCH</small></span></a>
+    <a class="wordmark" href="/" aria-label="NSA Playset home"><img src="/images/archive/nsa-playset-logo.png" width="425" height="77" alt="NSA Playset"><span>Open tools. Shared curiosity.</span></a>
     <nav aria-label="Main navigation"><a href="/">Catalog</a><a href="/about/">About</a><a href="/contributions/">Contribute</a></nav>
   </header>
   <main id="main">{% block content %}{% endblock content %}</main>

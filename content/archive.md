@@ -6,9 +6,23 @@ template = "page.html"
 
 ## Recovery status
 
-This is a partial reconstruction, assembled on September 29, 2026 from available project sources, indexed mirror pages, and historical links. The original domain and Wayback archive could not be fetched reliably during this pass. This site does not claim to be a complete mirror.
+This is a partial reconstruction, assembled on September 29, 2026 from available project sources, indexed mirror pages, and historical links. The Wayback archive could not be fetched reliably during the initial reconstruction. The public GBPPR mirror was subsequently retrieved to recover its original artwork. This site does not claim to be a complete mirror.
 
 The [GBPPR mirror](https://gbppr.net/nsaplayset/) preserves parts of the original site. Project pages link to their individual sources. New summaries are clearly separated from original upstream documentation.
+
+## Original artwork
+
+The original green NSA Playset wordmark and the pencil drawing of a kid with a radio and laptop have been recovered from the [old homepage mirror](http://gbppr.net/nsaplayset/). They are back in the site header and on the homepage, served locally with their original image data intact. The mirror does not identify the illustrator; no new artist credit or license is inferred.
+
+The image named `customLogo.gif` by the old site is actually a PNG; its local filename reflects that format. Eleven further photographs and diagrams were recovered from original project repositories and presentations. They appear in the relevant project notes:
+
+- [SLOTSCREAMER: the original PCIe hardware](/slotscreamer/#original-project-images)
+- [HALIBUTDUGOUT: the Thunderbolt enclosure](/halibutdugout/#original-project-images)
+- [ALLOYVIPER: the demonstration and adapter assembly](/alloyviper/#original-project-images)
+- [SAVIORBURST: SOLDERPEEK hardware, board layers, and schematic](/saviorburst/#original-project-images)
+- [TWILIGHTVEGETABLE: the original Wireshark screenshot](/twilightvegetable/#original-project-images)
+
+Each figure links to its source. The project imagery comes from the original authors' work; it is not presented as artwork embedded in the old website. Original colors and diagrams are retained. Upstream rights apply.
 
 ## Preserved routes
 

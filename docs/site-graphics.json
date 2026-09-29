@@ -1,0 +1,33 @@
+{
+  "recovered_on": "2026-09-29",
+  "assets": [
+    {
+      "local_url": "/images/archive/nsa-playset-logo.png",
+      "source_url": "http://gbppr.net/nsaplayset/customLogo.gif",
+      "source_page": "http://gbppr.net/nsaplayset/",
+      "original_filename": "customLogo.gif",
+      "alt": "Original green NSA Playset wordmark",
+      "width": 425,
+      "height": 77,
+      "sha256": "49402c68e6a834ccaf783ffa36ebf856adf9a3bf0156b872b1b476d932119e83",
+      "bytes": 27451,
+      "credit": "Original NSA Playset site; illustrator not identified in the mirror.",
+      "rights": "No image-specific license found; no new license inferred.",
+      "recovery": "Original bytes recovered over public HTTP; mirror HTTPS certificate was invalid."
+    },
+    {
+      "local_url": "/images/archive/hackrf-kid.png",
+      "source_url": "http://gbppr.net/nsaplayset/hackrf-kid.png",
+      "source_page": "http://gbppr.net/nsaplayset/",
+      "original_filename": "hackrf-kid.png",
+      "alt": "Original pencil drawing of a kid with a radio and laptop",
+      "width": 400,
+      "height": 400,
+      "sha256": "1d606a62f905cc8ab1336a1765cde528b322c7d1c5e64065ed59a1f29dda49ff",
+      "bytes": 33356,
+      "credit": "Original NSA Playset site; illustrator not identified in the mirror.",
+      "rights": "No image-specific license found; no new license inferred.",
+      "recovery": "Original bytes recovered over public HTTP; mirror HTTPS certificate was invalid."
+    }
+  ]
+}

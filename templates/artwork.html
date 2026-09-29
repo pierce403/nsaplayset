@@ -1,0 +1,13 @@
+{% if page.extra.gallery %}
+<section aria-labelledby="original-project-images">
+ <h2 id="original-project-images">From the original work</h2>
+ <div class="archive-gallery project-gallery">
+ {% for artwork in page.extra.gallery %}
+  <figure>
+   <a class="artwork-link" href="{{ artwork.path }}" aria-label="View full-size image: {{ artwork.alt }}"><img src="{{ artwork.path }}" width="{{ artwork.width }}" height="{{ artwork.height }}" loading="lazy" decoding="async" alt="{{ artwork.alt }}"></a>
+   <figcaption><strong>{{ artwork.caption }}</strong>{{ artwork.credit }} · <a href="{{ artwork.source }}">Original source{% if artwork.page %}, page {{ artwork.page }}{% endif %}</a></figcaption>
+  </figure>
+ {% endfor %}
+ </div>
+</section>
+{% endif %}

@@ -16,6 +16,15 @@ url = "https://gbppr.net/nsaplayset/twilightvegetable/"
 [[extra.sources]]
 label = "Original GSM presentation (mirror)"
 url = "https://gbppr.net/nsaplayset/twilightvegetable/NSA-PLAYSET-GSM.pdf"
+
+[[extra.gallery]]
+path = "/images/archive/projects/twilightvegetable-airprobe.png"
+width = 752
+height = 649
+alt = "A Wireshark screenshot showing GSM packets produced by the original Airprobe software."
+caption = "Airprobe GSM output in Wireshark, preserved with TWILIGHTVEGETABLE."
+credit = "Source: NSAPlayset/TWILIGHTVEGETABLE; its README references BogdanDIA/airprobe-hopping."
+source = "https://raw.githubusercontent.com/NSAPlayset/TWILIGHTVEGETABLE/master/airprobe-hopping.png"
 +++
 
 ## Overview

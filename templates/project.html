@@ -3,7 +3,7 @@
 <div class="wrap project-page">
  <a class="breadcrumb" href="/">Catalog / {{ page.extra.category }}</a>
  <header class="project-heading"><div class="eyebrow">PROJECT {{ page.extra.number }} / {{ page.extra.interface }}</div><h1>{{ page.title }}</h1><p class="lead">{{ page.description }}</p></header>
- <div class="detail-grid"><article class="prose">{{ page.content | safe }}<h2 id="sources">Sources & original work</h2><ul class="source-list">{% for source in page.extra.sources %}<li><a href="{{ source.url | safe }}">{{ source.label }}</a></li>{% endfor %}</ul></article>
+ <div class="detail-grid"><article class="prose">{{ page.content | safe }}{% include "artwork.html" %}<h2 id="sources">Sources & original work</h2><ul class="source-list">{% for source in page.extra.sources %}<li><a href="{{ source.url | safe }}">{{ source.label }}</a></li>{% endfor %}</ul></article>
  <aside class="project-facts" aria-label="Project information"><p class="eyebrow">CATALOG RECORD</p><dl><dt>Category</dt><dd>{{ page.extra.category }}</dd><dt>Interface</dt><dd>{{ page.extra.interface }}</dd><dt>Historical period</dt><dd>{{ page.extra.year }}</dd><dt>Credits</dt><dd>{{ page.extra.credits }}</dd><dt>Current status</dt><dd>Not revalidated</dd></dl><p class="fact-note">This is a historical summary, not a claim of compatibility with current systems. Consult the original project for code, schematics, and instructions.</p><a href="/contributions/">Suggest a correction</a></aside></div>
  <div class="project-return"><a class="button" href="/">Browse all projects</a></div>
 </div>

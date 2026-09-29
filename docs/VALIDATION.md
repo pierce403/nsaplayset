@@ -24,3 +24,12 @@
 ## Remaining editorial work
 
 Recover missing original assets as available. They are not required for the site build, but the historical archive remains incomplete without them. External source availability and historical hardware compatibility are outside these deployment checks.
+
+## Original graphics and pencil aesthetic
+
+- Recovered two original site graphics from the public homepage mirror and 11 original project images from upstream sources. Every asset has a local path, source URL, dimensions, credit, and SHA-256 in `docs/site-graphics.json` or `docs/project-graphics.json`.
+- The logo and homepage drawing retain their original bytes. Selected original hardware photos appear as small catalog previews and all 11 project images appear in credited project galleries. No generated replacement graphics were used.
+- The original `/customLogo.gif` and `/hackrf-kid.png` paths redirect to the locally hosted images; the original logo's data is PNG despite its historical `.gif` name. There are now 22 declared redirects.
+- White paper, graphite rules, serif headings, and simpler catalog rows replace the previous block design. Source photos and board drawings retain their colors.
+- Checked the homepage and project gallery at a 390-pixel mobile viewport and the homepage at 1280 pixels. No horizontal overflow; search, combined-filter empty state, and reset work. Images remain legible when a browser dark-theme override is applied.
+- Source PDFs were inspected to verify image extraction. One photograph required rendering its PDF image bounds to preserve the source colors; that exception is documented in its provenance entry.
