@@ -16,7 +16,7 @@ url = "http://gbppr.net/nsaplayset/congaflock/"
 
 [[extra.resources]]
 kind = "video"
-label = "NSA Playset: RF Retroreflectors — DEF CON 22"
+label = "NSA Playset: RF Retroreflectors · DEF CON 22"
 url = "https://www.youtube.com/watch?v=mAai6dRAtFo"
 
 [[extra.resources]]

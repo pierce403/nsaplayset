@@ -21,7 +21,7 @@ url = "https://shmoo.gitbook.io/2015-shmoocon-proceedings/build_it/01_nsa_playse
 
 [[extra.resources]]
 kind = "video"
-label = "NSA Playset: USB Tools — ShmooCon 2015"
+label = "NSA Playset: USB Tools · ShmooCon 2015"
 url = "https://archive.org/details/shmoocon-2015-videos-playlist/NSA+USB+Playset+%5BSC2015%5D.mp4"
 
 [[extra.resources]]

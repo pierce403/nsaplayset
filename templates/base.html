@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {% set page_title = config.title %}{% set page_description = config.description %}
-  {% if page %}{% set page_title = page.title ~ " — " ~ config.title %}{% if page.description %}{% set page_description = page.description %}{% endif %}{% endif %}
+  {% if page %}{% set page_title = page.title ~ " | " ~ config.title %}{% if page.description %}{% set page_description = page.description %}{% endif %}{% endif %}
   <title>{{ page_title }}</title>
   <meta name="description" content="{{ page_description }}">
   <meta name="theme-color" content="#ffffff">

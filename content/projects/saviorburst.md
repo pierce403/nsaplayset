@@ -66,13 +66,13 @@ source = "https://raw.githubusercontent.com/NSAPlayset/SAVIORBURST/master/SOLDER
 
 [[extra.resources]]
 kind = "training"
-label = "Securing Hardware — Hands-on JTAG for Fun and Root Shells"
+label = "Securing Hardware · Hands-on JTAG for Fun and Root Shells"
 url = "https://securinghardware.com/training/jtag/"
 note = "Related workshop using a Raspberry Pi and OpenOCD."
 
 [[extra.resources]]
 kind = "video"
-label = "NSA Playset: JTAG Implants — DEF CON 23"
+label = "NSA Playset: JTAG Implants · DEF CON 23"
 url = "https://www.youtube.com/watch?v=oGuZNmBZbjk"
 
 [[extra.resources]]

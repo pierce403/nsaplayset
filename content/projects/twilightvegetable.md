@@ -28,7 +28,7 @@ source = "https://raw.githubusercontent.com/NSAPlayset/TWILIGHTVEGETABLE/master/
 
 [[extra.resources]]
 kind = "video"
-label = "NSA Playset: GSM Sniffing — DEF CON 22"
+label = "NSA Playset: GSM Sniffing · DEF CON 22"
 url = "https://www.youtube.com/watch?v=wzyuioto4y8"
 
 [[extra.resources]]

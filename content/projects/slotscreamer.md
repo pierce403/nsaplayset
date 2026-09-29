@@ -33,18 +33,18 @@ page = 47
 
 [[extra.resources]]
 kind = "training"
-label = "Securing Hardware — Applied Physical Attacks on x86 Systems"
+label = "Securing Hardware · Applied Physical Attacks on x86 Systems"
 url = "https://securinghardware.com/training/x86/"
 note = "PCIe memory access and interface adaptation."
 
 [[extra.resources]]
 kind = "video"
-label = "NSA Playset: PCIe — DEF CON 22"
+label = "NSA Playset: PCIe · DEF CON 22"
 url = "https://www.youtube.com/watch?v=OD2Wxe4RLeU"
 
 [[extra.resources]]
 kind = "video"
-label = "SLOTSCREAMER demo — Joe FitzPatrick"
+label = "SLOTSCREAMER demo · Joe FitzPatrick"
 url = "https://www.youtube.com/watch?v=SvnvOXXAxaI"
 
 [[extra.resources]]

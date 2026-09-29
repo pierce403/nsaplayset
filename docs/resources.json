@@ -9,7 +9,7 @@
         "drizzlechair"
       ],
       "kind": "video",
-      "label": "NSA Playset: GSM Sniffing — DEF CON 22",
+      "label": "NSA Playset: GSM Sniffing · DEF CON 22",
       "url": "https://www.youtube.com/watch?v=wzyuioto4y8",
       "evidence_url": "https://deanpierce.net/talks/nsa-playset/nsa-playset-gsm/",
       "verification": {
@@ -29,7 +29,7 @@
         "alloyviper"
       ],
       "kind": "video",
-      "label": "NSA Playset: PCIe — DEF CON 22",
+      "label": "NSA Playset: PCIe · DEF CON 22",
       "url": "https://www.youtube.com/watch?v=OD2Wxe4RLeU",
       "evidence_url": "https://defcon.org/html/links/dc-archives/dc-22-archive.html#FitzPatrick",
       "verification": {
@@ -47,7 +47,7 @@
         "saviorburst"
       ],
       "kind": "video",
-      "label": "NSA Playset: JTAG Implants — DEF CON 23",
+      "label": "NSA Playset: JTAG Implants · DEF CON 23",
       "url": "https://www.youtube.com/watch?v=oGuZNmBZbjk",
       "evidence_url": "https://defcon.org/html/defcon-23/dc-23-speakers.html#FitzPatrick",
       "verification": {
@@ -65,7 +65,7 @@
         "chuckwagon"
       ],
       "kind": "video",
-      "label": "DIY WAGONBED Hardware Implant over I²C — DEF CON 22",
+      "label": "DIY WAGONBED Hardware Implant over I²C · DEF CON 22",
       "url": "https://www.youtube.com/watch?v=Lmpw95MFXCI",
       "evidence_url": "https://defcon.org/html/links/dc-archives/dc-22-archive.html#Datko",
       "verification": {
@@ -83,7 +83,7 @@
         "congaflock"
       ],
       "kind": "video",
-      "label": "NSA Playset: RF Retroreflectors — DEF CON 22",
+      "label": "NSA Playset: RF Retroreflectors · DEF CON 22",
       "url": "https://www.youtube.com/watch?v=mAai6dRAtFo",
       "evidence_url": "https://defcon.org/html/links/dc-archives/dc-22-archive.html#Ossmann",
       "verification": {
@@ -101,7 +101,7 @@
         "slotscreamer"
       ],
       "kind": "video",
-      "label": "SLOTSCREAMER demo — Joe FitzPatrick",
+      "label": "SLOTSCREAMER demo · Joe FitzPatrick",
       "url": "https://www.youtube.com/watch?v=SvnvOXXAxaI",
       "evidence_url": "https://securinghardware.com/articles/SLOTSCREAMER/",
       "verification": {
@@ -119,7 +119,7 @@
         "about"
       ],
       "kind": "video",
-      "label": "The NSA Playset: A Year of Toys and Tools — Black Hat 2015",
+      "label": "The NSA Playset: A Year of Toys and Tools · Black Hat 2015",
       "url": "https://www.youtube.com/watch?v=AdeMX6l9qNc",
       "evidence_url": "https://blackhat.com/us-15/briefings.html#the-nsa-playset-a-year-of-toys-and-tools",
       "verification": {
@@ -137,7 +137,7 @@
         "about"
       ],
       "kind": "video",
-      "label": "The NSA Playset — ToorCamp 2014",
+      "label": "The NSA Playset · ToorCamp 2014",
       "url": "https://archive.org/details/nsaplayset-toorcamp2014",
       "evidence_url": "https://ossmann.blogspot.com/2014/07/the-nsa-playset.html",
       "verification": {
@@ -156,7 +156,7 @@
         "turnipschool"
       ],
       "kind": "video",
-      "label": "NSA Playset: USB Tools — ShmooCon 2015",
+      "label": "NSA Playset: USB Tools · ShmooCon 2015",
       "url": "https://archive.org/details/shmoocon-2015-videos-playlist/NSA+USB+Playset+%5BSC2015%5D.mp4",
       "evidence_url": "https://shmoo.gitbook.io/2015-shmoocon-proceedings/build_it/01_nsa_playset_usb_tools",
       "verification": {
@@ -766,7 +766,7 @@
         "alloyviper"
       ],
       "kind": "training",
-      "label": "Securing Hardware — Applied Physical Attacks on x86 Systems",
+      "label": "Securing Hardware · Applied Physical Attacks on x86 Systems",
       "url": "https://securinghardware.com/training/x86/",
       "note": "PCIe memory access and interface adaptation.",
       "evidence_url": "https://securinghardware.com/training/x86/",
@@ -781,7 +781,7 @@
         "saviorburst"
       ],
       "kind": "training",
-      "label": "Securing Hardware — Hands-on JTAG for Fun and Root Shells",
+      "label": "Securing Hardware · Hands-on JTAG for Fun and Root Shells",
       "url": "https://securinghardware.com/training/jtag/",
       "note": "Related workshop using a Raspberry Pi and OpenOCD.",
       "evidence_url": "https://securinghardware.com/training/jtag/",

@@ -22,7 +22,7 @@ url = "/chuckwagon/dc_22_diy_hardware_implant.pdf"
 
 [[extra.resources]]
 kind = "video"
-label = "DIY WAGONBED Hardware Implant over I²C — DEF CON 22"
+label = "DIY WAGONBED Hardware Implant over I²C · DEF CON 22"
 url = "https://www.youtube.com/watch?v=Lmpw95MFXCI"
 
 [[extra.resources]]
