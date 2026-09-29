@@ -10,6 +10,7 @@ import csv
 import argparse
 import hashlib
 import json
+import tomllib
 
 parser = argparse.ArgumentParser(description=__doc__)
 parser.add_argument('--base-url', default='https://nsaplayset.org')
@@ -98,6 +99,24 @@ for item in json.loads((ROOT / 'docs/downloads.json').read_text()):
     data = target.read_bytes()
     if len(data) != item['bytes'] or hashlib.sha256(data).hexdigest() != item['sha256']:
         errors.append(f"downloads.json: changed original bytes at {item['path']}")
+
+resource_groups = {'video': 'videos', 'code': 'code-schematics', 'hardware': 'components', 'training': 'training'}
+resources = json.loads((ROOT / 'docs/resources.json').read_text())['items']
+for item in resources:
+    if item['kind'] not in resource_groups or urlsplit(item['url']).scheme != 'https':
+        errors.append(f"resources.json: invalid resource {item['url']}")
+        continue
+    for project in item['projects']:
+        source = ROOT / ('content/about.md' if project == 'about' else f'content/projects/{project}.md')
+        metadata = tomllib.loads(source.read_text().split('+++', 2)[1])
+        fields = {key: item[key] for key in ('kind', 'label', 'url', 'note') if key in item}
+        if fields not in metadata.get('extra', {}).get('resources', []):
+            errors.append(f"resources.json: metadata differs for {project}: {item['url']}")
+        target = resolve(f'/{project}/')
+        if target not in documents or item['url'] not in documents[target].links:
+            errors.append(f"resources.json: missing rendered link on {project}: {item['url']}")
+        elif resource_groups[item['kind']] not in documents[target].ids:
+            errors.append(f"resources.json: missing resource heading on {project}: {item['kind']}")
 if errors:
     raise SystemExit('\n'.join(errors))
-print(f'PASS: {len(documents)} HTML pages, {len(redirects)} redirects, local assets, fragments and legacy routes')
+print(f'PASS: {len(documents)} HTML pages, {len(redirects)} redirects, {len(resources)} resources, local assets, fragments and legacy routes')

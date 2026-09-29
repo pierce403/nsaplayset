@@ -1,6 +1,16 @@
 +++
 title = "About the NSA Playset"
 template = "page.html"
+
+[[extra.resources]]
+kind = "video"
+label = "The NSA Playset: A Year of Toys and Tools — Black Hat 2015"
+url = "https://www.youtube.com/watch?v=AdeMX6l9qNc"
+
+[[extra.resources]]
+kind = "video"
+label = "The NSA Playset — ToorCamp 2014"
+url = "https://archive.org/details/nsaplayset-toorcamp2014"
 +++
 
 Welcome to the Home of the NSA Playset.

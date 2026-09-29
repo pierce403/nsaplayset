@@ -13,6 +13,17 @@ credits = "Not listed"
 [[extra.sources]]
 label = "Historical project page"
 url = "http://gbppr.net/nsaplayset/leviticus/"
+
+[[extra.resources]]
+kind = "video"
+label = "NSA Playset: GSM Sniffing — DEF CON 22"
+url = "https://www.youtube.com/watch?v=wzyuioto4y8"
+
+[[extra.resources]]
+kind = "code"
+label = "OsmocomBB firmware source"
+url = "https://github.com/osmocom/osmocom-bb"
+note = "Official GitHub mirror."
 +++
 
 Uses the [TWILIGHTVEGETABLE](/twilightvegetable/) environment.

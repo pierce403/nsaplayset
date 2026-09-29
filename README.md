@@ -62,6 +62,8 @@ Copy an existing file under `content/projects/`. Set `title`, `description`, `we
 
 Write the body in Markdown. Link to primary sources, credit original work, and distinguish historical claims from current tested status. The homepage is generated from all project pages automatically; search runs locally in the browser and all entries remain readable without JavaScript.
 
+Use `[[extra.resources]]` entries for videos, code and schematics, components, and training. Each has `kind` (`video`, `code`, `hardware`, or `training`), `label`, `url`, and an optional short `note`. The same groups work on the About page. Keep original-source citations in `extra.sources`. Resource provenance and verification are recorded in [docs/resources.json](docs/resources.json); see [docs/RESOURCES.md](docs/RESOURCES.md) for scope and exclusions.
+
 ## Legacy URL recovery
 
 `docs/legacy-urls.csv` records path provenance. `static/_redirects` is the routing source of truth. Do not infer original paths merely by lowercasing project names. HALIBUTDUGOUT and ALLOYVIPER are new routes for historically documented projects.

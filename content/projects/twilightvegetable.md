@@ -25,6 +25,23 @@ alt = "A Wireshark screenshot showing GSM packets produced by the original Airpr
 caption = "Airprobe GSM output in Wireshark, preserved with TWILIGHTVEGETABLE."
 credit = "Source: NSAPlayset/TWILIGHTVEGETABLE; its README references BogdanDIA/airprobe-hopping."
 source = "https://raw.githubusercontent.com/NSAPlayset/TWILIGHTVEGETABLE/master/airprobe-hopping.png"
+
+[[extra.resources]]
+kind = "video"
+label = "NSA Playset: GSM Sniffing — DEF CON 22"
+url = "https://www.youtube.com/watch?v=wzyuioto4y8"
+
+[[extra.resources]]
+kind = "code"
+label = "TWILIGHTVEGETABLE source"
+url = "https://github.com/NSAPlayset/TWILIGHTVEGETABLE"
+note = "Original Airprobe frequency-hopping fork."
+
+[[extra.resources]]
+kind = "hardware"
+label = "RTL-SDR receiver · Hacker Warehouse"
+url = "https://hackerwarehouse.com/product/rtlsdr/"
+note = "RTL2832U / R820T receiver."
 +++
 
 ## Ingredients

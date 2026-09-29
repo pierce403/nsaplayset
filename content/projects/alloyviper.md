@@ -47,6 +47,17 @@ caption = "A closer look at the original ALLOYVIPER assembly."
 credit = "Source presentation: Joe FitzPatrick and Miles Crabill, DEF CON 22 (2014)."
 source = "https://raw.githubusercontent.com/NSAPlayset/SLOTSCREAMER/master/Stupid%20PCIe%20Tricks%2C%20featuring%20the%20NSA%20Playset-%20PCIe.pdf"
 page = 89
+
+[[extra.resources]]
+kind = "training"
+label = "Securing Hardware — Applied Physical Attacks on x86 Systems"
+url = "https://securinghardware.com/training/x86/"
+note = "PCIe memory access and interface adaptation."
+
+[[extra.resources]]
+kind = "video"
+label = "NSA Playset: PCIe — DEF CON 22"
+url = "https://www.youtube.com/watch?v=OD2Wxe4RLeU"
 +++
 
 [SLOTSCREAMER](/slotscreamer/) · [HALIBUTDUGOUT](/halibutdugout/)

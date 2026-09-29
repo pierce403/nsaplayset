@@ -1,0 +1,17 @@
+{% if page.extra.resources %}
+ {% for kind in ["video", "code", "hardware", "training"] %}
+  {% set links = page.extra.resources | filter(attribute="kind", value=kind) %}
+  {% if links | length > 0 %}
+   {% if kind == "video" %}{% set heading = "Videos" %}{% set anchor = "videos" %}
+   {% elif kind == "code" %}{% set heading = "Code & schematics" %}{% set anchor = "code-schematics" %}
+   {% elif kind == "hardware" %}{% set heading = "Components" %}{% set anchor = "components" %}
+   {% else %}{% set heading = "Training" %}{% set anchor = "training" %}{% endif %}
+   <section aria-labelledby="{{ anchor }}">
+    <h2 id="{{ anchor }}">{{ heading }}</h2>
+    <ul class="resource-list">
+     {% for resource in links %}<li><a href="{{ resource.url | safe }}">{{ resource.label }}</a>{% if resource.note %}<span class="resource-note">{{ resource.note }}</span>{% endif %}</li>{% endfor %}
+    </ul>
+   </section>
+  {% endif %}
+ {% endfor %}
+{% endif %}

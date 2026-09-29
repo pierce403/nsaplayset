@@ -17,9 +17,6 @@ credits = "NSAPlayset / SAVIORBURST contributors"
 [[extra.sources]]
 label = "Historical project page"
 url = "http://gbppr.net/nsaplayset/saviorburst/"
-[[extra.sources]]
-label = "Source repository"
-url = "https://github.com/NSAPlayset/SAVIORBURST"
 
 [[extra.gallery]]
 path = "/images/archive/projects/solderpeek-hardware.jpg"
@@ -66,6 +63,27 @@ alt = "The original SOLDERPEEK circuit schematic, showing components and their c
 caption = "The SOLDERPEEK schematic from the source repository."
 credit = "Source: NSAPlayset/SAVIORBURST. The board artwork credits @securelyfitz, @syncsrc, and the NSA Playset."
 source = "https://raw.githubusercontent.com/NSAPlayset/SAVIORBURST/master/SOLDERPEEK/solderpeek-sch.png"
+
+[[extra.resources]]
+kind = "training"
+label = "Securing Hardware — Hands-on JTAG for Fun and Root Shells"
+url = "https://securinghardware.com/training/jtag/"
+note = "Related workshop using a Raspberry Pi and OpenOCD."
+
+[[extra.resources]]
+kind = "video"
+label = "NSA Playset: JTAG Implants — DEF CON 23"
+url = "https://www.youtube.com/watch?v=oGuZNmBZbjk"
+
+[[extra.resources]]
+kind = "code"
+label = "SAVIORBURST source"
+url = "https://github.com/NSAPlayset/SAVIORBURST"
+
+[[extra.resources]]
+kind = "code"
+label = "SOLDERPEEK schematics, PCB and Gerbers"
+url = "https://github.com/NSAPlayset/SAVIORBURST/tree/master/SOLDERPEEK"
 +++
 
 It is loaded on to the SOLDERPEEK JTAG implant which is modeled after FLUXBABBIT from the ANT catalog.

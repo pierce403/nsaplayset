@@ -19,4 +19,25 @@ url = "https://github.com/NSAPlayset/CHUCKWAGON"
 [[extra.sources]]
 label = "DEF CON 22 presentation"
 url = "/chuckwagon/dc_22_diy_hardware_implant.pdf"
+
+[[extra.resources]]
+kind = "video"
+label = "DIY WAGONBED Hardware Implant over I²C — DEF CON 22"
+url = "https://www.youtube.com/watch?v=Lmpw95MFXCI"
+
+[[extra.resources]]
+kind = "code"
+label = "CHUCKWAGON schematics, PCB and BOM"
+url = "https://github.com/NSAPlayset/CHUCKWAGON/tree/master/hardware"
+
+[[extra.resources]]
+kind = "code"
+label = "CHUCKWAGON demonstration firmware"
+url = "https://github.com/NSAPlayset/CHUCKWAGON/tree/master/src"
+
+[[extra.resources]]
+kind = "hardware"
+label = "CHUCKWAGON bare PCB · OSH Park"
+url = "https://oshpark.com/shared_projects/FfikIrhc"
+note = "Bare board from the original design."
 +++

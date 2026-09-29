@@ -1,0 +1,854 @@
+{
+  "checked_at": "2026-09-29",
+  "scope": "Resource destinations, identity and original-project relevance verified. No full video playback, hardware compatibility testing, purchases or training enrollment performed.",
+  "items": [
+    {
+      "projects": [
+        "twilightvegetable",
+        "leviticus",
+        "drizzlechair"
+      ],
+      "kind": "video",
+      "label": "NSA Playset: GSM Sniffing — DEF CON 22",
+      "url": "https://www.youtube.com/watch?v=wzyuioto4y8",
+      "evidence_url": "https://deanpierce.net/talks/nsa-playset/nsa-playset-gsm/",
+      "verification": {
+        "date": "2026-09-29",
+        "method": "YouTube public oEmbed metadata",
+        "http_status": 200,
+        "title": "DEF CON 22 - Pierce and Loki - NSA Playset : GSM Sniffing",
+        "channel": "DEFCONConference",
+        "channel_url": "https://www.youtube.com/@DEFCONConference",
+        "scope": "Metadata and identity verified; full playback not tested"
+      }
+    },
+    {
+      "projects": [
+        "slotscreamer",
+        "halibutdugout",
+        "alloyviper"
+      ],
+      "kind": "video",
+      "label": "NSA Playset: PCIe — DEF CON 22",
+      "url": "https://www.youtube.com/watch?v=OD2Wxe4RLeU",
+      "evidence_url": "https://defcon.org/html/links/dc-archives/dc-22-archive.html#FitzPatrick",
+      "verification": {
+        "date": "2026-09-29",
+        "method": "YouTube public oEmbed metadata",
+        "http_status": 200,
+        "title": "DEF CON 22 - Joe FitzPatrick and Miles Crabill - NSA Playset: PCIe",
+        "channel": "DEFCONConference",
+        "channel_url": "https://www.youtube.com/@DEFCONConference",
+        "scope": "Metadata and identity verified; full playback not tested"
+      }
+    },
+    {
+      "projects": [
+        "saviorburst"
+      ],
+      "kind": "video",
+      "label": "NSA Playset: JTAG Implants — DEF CON 23",
+      "url": "https://www.youtube.com/watch?v=oGuZNmBZbjk",
+      "evidence_url": "https://defcon.org/html/defcon-23/dc-23-speakers.html#FitzPatrick",
+      "verification": {
+        "date": "2026-09-29",
+        "method": "YouTube public oEmbed metadata",
+        "http_status": 200,
+        "title": "DEF CON 23 - Joe FitzPatrick and Matt King - NSA Playset: JTAG Implants",
+        "channel": "DEFCONConference",
+        "channel_url": "https://www.youtube.com/@DEFCONConference",
+        "scope": "Metadata and identity verified; full playback not tested"
+      }
+    },
+    {
+      "projects": [
+        "chuckwagon"
+      ],
+      "kind": "video",
+      "label": "DIY WAGONBED Hardware Implant over I²C — DEF CON 22",
+      "url": "https://www.youtube.com/watch?v=Lmpw95MFXCI",
+      "evidence_url": "https://defcon.org/html/links/dc-archives/dc-22-archive.html#Datko",
+      "verification": {
+        "date": "2026-09-29",
+        "method": "YouTube public oEmbed metadata",
+        "http_status": 200,
+        "title": "DEF CON 22 - Josh Datko and Teddy Reed - NSA Playset: DIY WAGONBED Hardware Implant over I2C",
+        "channel": "DEFCONConference",
+        "channel_url": "https://www.youtube.com/@DEFCONConference",
+        "scope": "Metadata and identity verified; full playback not tested"
+      }
+    },
+    {
+      "projects": [
+        "congaflock"
+      ],
+      "kind": "video",
+      "label": "NSA Playset: RF Retroreflectors — DEF CON 22",
+      "url": "https://www.youtube.com/watch?v=mAai6dRAtFo",
+      "evidence_url": "https://defcon.org/html/links/dc-archives/dc-22-archive.html#Ossmann",
+      "verification": {
+        "date": "2026-09-29",
+        "method": "YouTube public oEmbed metadata",
+        "http_status": 200,
+        "title": "DEF CON 22 - Michael Ossmann - The NSA Playset: RF Retroreflectors",
+        "channel": "DEFCONConference",
+        "channel_url": "https://www.youtube.com/@DEFCONConference",
+        "scope": "Metadata and identity verified; full playback not tested"
+      }
+    },
+    {
+      "projects": [
+        "slotscreamer"
+      ],
+      "kind": "video",
+      "label": "SLOTSCREAMER demo — Joe FitzPatrick",
+      "url": "https://www.youtube.com/watch?v=SvnvOXXAxaI",
+      "evidence_url": "https://securinghardware.com/articles/SLOTSCREAMER/",
+      "verification": {
+        "date": "2026-09-29",
+        "method": "YouTube public oEmbed metadata",
+        "http_status": 200,
+        "title": "SLOTSCREAMER video demo",
+        "channel": "Joe Fitz",
+        "channel_url": "https://www.youtube.com/@securelyfitz",
+        "scope": "Metadata and identity verified; full playback not tested"
+      }
+    },
+    {
+      "projects": [
+        "about"
+      ],
+      "kind": "video",
+      "label": "The NSA Playset: A Year of Toys and Tools — Black Hat 2015",
+      "url": "https://www.youtube.com/watch?v=AdeMX6l9qNc",
+      "evidence_url": "https://blackhat.com/us-15/briefings.html#the-nsa-playset-a-year-of-toys-and-tools",
+      "verification": {
+        "date": "2026-09-29",
+        "method": "YouTube public oEmbed metadata",
+        "http_status": 200,
+        "title": "The NSA Playset: A Year Of Toys And Tools",
+        "channel": "Black Hat",
+        "channel_url": "https://www.youtube.com/@BlackHatOfficialYT",
+        "scope": "Metadata and identity verified; full playback not tested"
+      }
+    },
+    {
+      "projects": [
+        "about"
+      ],
+      "kind": "video",
+      "label": "The NSA Playset — ToorCamp 2014",
+      "url": "https://archive.org/details/nsaplayset-toorcamp2014",
+      "evidence_url": "https://ossmann.blogspot.com/2014/07/the-nsa-playset.html",
+      "verification": {
+        "date": "2026-09-29",
+        "method": "Author blog links the recording; Internet Archive metadata HTTP 200 identifies creator, date, movie file and author uploader",
+        "http_status": 200,
+        "title": "The NSA Playset",
+        "creator": "Michael Ossmann and Dean Pierce",
+        "recorded": "2014-07-12",
+        "media_file": "nsaplayset-toorcamp2014.mp4",
+        "scope": "Metadata and author attribution verified; full playback not tested"
+      }
+    },
+    {
+      "projects": [
+        "turnipschool"
+      ],
+      "kind": "video",
+      "label": "NSA Playset: USB Tools — ShmooCon 2015",
+      "url": "https://archive.org/details/shmoocon-2015-videos-playlist/NSA+USB+Playset+%5BSC2015%5D.mp4",
+      "evidence_url": "https://shmoo.gitbook.io/2015-shmoocon-proceedings/build_it/01_nsa_playset_usb_tools",
+      "verification": {
+        "date": "2026-09-29",
+        "method": "Official proceedings matches talk and TURNIPSCHOOL; Internet Archive conference recording metadata HTTP 200 includes exact NSA USB Playset [SC2015].mp4 file",
+        "http_status": 200,
+        "title": "NSA USB Playset [SC2015]",
+        "scope": "Preserved conference recording; metadata checked, full playback not tested"
+      }
+    },
+    {
+      "projects": [
+        "twilightvegetable"
+      ],
+      "kind": "code",
+      "label": "TWILIGHTVEGETABLE source",
+      "url": "https://github.com/NSAPlayset/TWILIGHTVEGETABLE",
+      "evidence_url": "https://github.com/NSAPlayset/TWILIGHTVEGETABLE",
+      "verification": {
+        "method": "GitHub REST repository and recursive tree",
+        "api_status": 200,
+        "archived": false,
+        "checked_at": "2026-09-29",
+        "http_status": 200,
+        "final_url": "https://github.com/NSAPlayset/TWILIGHTVEGETABLE",
+        "tree_sha": "57f9ece56c50426b36fc1b5a7791395a577f6a02"
+      },
+      "note": "Original Airprobe frequency-hopping fork."
+    },
+    {
+      "projects": [
+        "slotscreamer",
+        "halibutdugout"
+      ],
+      "kind": "code",
+      "label": "SLOTSCREAMER firmware and documentation",
+      "url": "https://github.com/NSAPlayset/SLOTSCREAMER",
+      "evidence_url": "https://github.com/NSAPlayset/SLOTSCREAMER",
+      "verification": {
+        "method": "GitHub REST repository and recursive tree",
+        "api_status": 200,
+        "archived": false,
+        "checked_at": "2026-09-29",
+        "http_status": 200,
+        "final_url": "https://github.com/NSAPlayset/SLOTSCREAMER",
+        "tree_sha": "87288f491e1d78c5d7a3fc2c67b5c23a847f61d2"
+      }
+    },
+    {
+      "projects": [
+        "slotscreamer",
+        "halibutdugout"
+      ],
+      "kind": "code",
+      "label": "Inception source",
+      "url": "https://github.com/carmaa/inception",
+      "evidence_url": "https://github.com/NSAPlayset/SLOTSCREAMER#running-inception",
+      "verification": {
+        "method": "GitHub REST repository and recursive tree",
+        "api_status": 200,
+        "archived": false,
+        "checked_at": "2026-09-29",
+        "http_status": 200,
+        "final_url": "https://github.com/carmaa/inception",
+        "tree_sha": "7c14eb1e96b80a1c12f4df5058d4908bfbde7ed7"
+      },
+      "note": "Includes SLOTSCREAMER support."
+    },
+    {
+      "projects": [
+        "saviorburst"
+      ],
+      "kind": "code",
+      "label": "SAVIORBURST source",
+      "url": "https://github.com/NSAPlayset/SAVIORBURST",
+      "evidence_url": "https://github.com/NSAPlayset/SAVIORBURST",
+      "verification": {
+        "method": "GitHub REST repository and recursive tree",
+        "api_status": 200,
+        "archived": false,
+        "checked_at": "2026-09-29",
+        "http_status": 200,
+        "final_url": "https://github.com/NSAPlayset/SAVIORBURST",
+        "tree_sha": "a907d66cae72bab771ab90c3d8b6019bd726102b"
+      }
+    },
+    {
+      "projects": [
+        "saviorburst"
+      ],
+      "kind": "code",
+      "label": "SOLDERPEEK schematics, PCB and Gerbers",
+      "url": "https://github.com/NSAPlayset/SAVIORBURST/tree/master/SOLDERPEEK",
+      "evidence_url": "https://github.com/NSAPlayset/SAVIORBURST",
+      "verification": {
+        "method": "GitHub REST repository and recursive tree",
+        "api_status": 200,
+        "archived": false,
+        "checked_at": "2026-09-29",
+        "http_status": 200,
+        "final_url": "https://github.com/NSAPlayset/SAVIORBURST/tree/master/SOLDERPEEK",
+        "tree_sha": "a907d66cae72bab771ab90c3d8b6019bd726102b"
+      }
+    },
+    {
+      "projects": [
+        "chuckwagon"
+      ],
+      "kind": "code",
+      "label": "CHUCKWAGON schematics, PCB and BOM",
+      "url": "https://github.com/NSAPlayset/CHUCKWAGON/tree/master/hardware",
+      "evidence_url": "https://github.com/NSAPlayset/CHUCKWAGON",
+      "verification": {
+        "method": "GitHub REST repository and recursive tree",
+        "api_status": 200,
+        "archived": false,
+        "checked_at": "2026-09-29",
+        "http_status": 200,
+        "final_url": "https://github.com/NSAPlayset/CHUCKWAGON/tree/master/hardware",
+        "tree_sha": "bc62628a7d6d2ab55558aaf62e118e6e92b52688"
+      }
+    },
+    {
+      "projects": [
+        "chuckwagon"
+      ],
+      "kind": "code",
+      "label": "CHUCKWAGON demonstration firmware",
+      "url": "https://github.com/NSAPlayset/CHUCKWAGON/tree/master/src",
+      "evidence_url": "https://github.com/NSAPlayset/CHUCKWAGON",
+      "verification": {
+        "method": "GitHub REST repository and recursive tree",
+        "api_status": 200,
+        "archived": false,
+        "checked_at": "2026-09-29",
+        "http_status": 200,
+        "final_url": "https://github.com/NSAPlayset/CHUCKWAGON/tree/master/src",
+        "tree_sha": "bc62628a7d6d2ab55558aaf62e118e6e92b52688"
+      }
+    },
+    {
+      "projects": [
+        "congaflock"
+      ],
+      "kind": "code",
+      "label": "CONGAFLOCK schematic and PCB",
+      "url": "https://github.com/mossmann/retroreflectors/tree/master/CONGAFLOCK",
+      "evidence_url": "https://github.com/mossmann/retroreflectors",
+      "verification": {
+        "method": "GitHub REST repository and recursive tree",
+        "api_status": 200,
+        "archived": false,
+        "checked_at": "2026-09-29",
+        "http_status": 200,
+        "final_url": "https://github.com/mossmann/retroreflectors/tree/master/CONGAFLOCK",
+        "tree_sha": "fff29ec9b9d1d08f055fe9e68616719ee35e9ee6"
+      }
+    },
+    {
+      "projects": [
+        "congaflock"
+      ],
+      "kind": "code",
+      "label": "Retroreflector GNU Radio examples",
+      "url": "https://github.com/mossmann/retroreflectors/tree/master/gnuradio-examples",
+      "evidence_url": "https://github.com/mossmann/retroreflectors",
+      "verification": {
+        "method": "GitHub REST repository and recursive tree",
+        "api_status": 200,
+        "archived": false,
+        "checked_at": "2026-09-29",
+        "http_status": 200,
+        "final_url": "https://github.com/mossmann/retroreflectors/tree/master/gnuradio-examples",
+        "tree_sha": "fff29ec9b9d1d08f055fe9e68616719ee35e9ee6"
+      },
+      "note": "PS/2 and VGA demonstration flowgraphs from the same project."
+    },
+    {
+      "projects": [
+        "turnipschool"
+      ],
+      "kind": "code",
+      "label": "TURNIPSCHOOL schematic and PCB",
+      "url": "https://github.com/mossmann/cc11xx/tree/master/turnipschool",
+      "evidence_url": "https://github.com/mossmann/cc11xx",
+      "verification": {
+        "method": "GitHub REST repository and recursive tree",
+        "api_status": 200,
+        "archived": false,
+        "checked_at": "2026-09-29",
+        "http_status": 200,
+        "final_url": "https://github.com/mossmann/cc11xx/tree/master/turnipschool",
+        "tree_sha": "3fe05d291192d8e649b46f5a4bb2d57b25eff836"
+      }
+    },
+    {
+      "projects": [
+        "turnipschool"
+      ],
+      "kind": "code",
+      "label": "TURNIPSCHOOL enclosure design",
+      "url": "https://github.com/kikithegecko/turnipschool-casing",
+      "evidence_url": "https://github.com/kikithegecko/turnipschool-casing",
+      "verification": {
+        "method": "GitHub REST repository and recursive tree",
+        "api_status": 200,
+        "archived": false,
+        "checked_at": "2026-09-29",
+        "http_status": 200,
+        "final_url": "https://github.com/kikithegecko/turnipschool-casing",
+        "tree_sha": "8cbee29cc241b6a2b7e6dd0eb2daafb8785094ee"
+      }
+    },
+    {
+      "projects": [
+        "turnipschool"
+      ],
+      "kind": "code",
+      "label": "RfCat firmware and host tools",
+      "url": "https://github.com/atlas0fd00m/rfcat",
+      "evidence_url": "http://gbppr.net/nsaplayset/turnipschool/",
+      "verification": {
+        "method": "GitHub REST repository and recursive tree",
+        "api_status": 200,
+        "archived": false,
+        "checked_at": "2026-09-29",
+        "http_status": 200,
+        "final_url": "https://github.com/atlas0fd00m/rfcat",
+        "tree_sha": "cf7a4f986aa50f6a1eec2b3cd5cfb6b81cb1723f"
+      }
+    },
+    {
+      "projects": [
+        "turnipschool"
+      ],
+      "kind": "code",
+      "label": "CC1111 USB bootloader",
+      "url": "https://github.com/AdamLaurie/CC-Bootloader",
+      "evidence_url": "http://gbppr.net/nsaplayset/turnipschool/",
+      "verification": {
+        "method": "GitHub REST repository and recursive tree",
+        "api_status": 200,
+        "archived": false,
+        "checked_at": "2026-09-29",
+        "http_status": 200,
+        "final_url": "https://github.com/AdamLaurie/CC-Bootloader",
+        "tree_sha": "b7f95ed3bcc9e1ad15c83871589195d3761b1265"
+      }
+    },
+    {
+      "projects": [
+        "turnipschool"
+      ],
+      "kind": "code",
+      "label": "GoodFET programmer source",
+      "url": "https://github.com/travisgoodspeed/goodfet",
+      "evidence_url": "http://gbppr.net/nsaplayset/turnipschool/",
+      "verification": {
+        "method": "GitHub REST repository and recursive tree",
+        "api_status": 200,
+        "archived": false,
+        "checked_at": "2026-09-29",
+        "http_status": 200,
+        "final_url": "https://github.com/travisgoodspeed/goodfet",
+        "tree_sha": "2c00d305488a959116d73ab7f742bc80e6b3e326"
+      }
+    },
+    {
+      "projects": [
+        "keysweeper"
+      ],
+      "kind": "code",
+      "label": "KeySweeper source and schematic",
+      "url": "https://github.com/samyk/keysweeper",
+      "evidence_url": "https://github.com/samyk/keysweeper",
+      "verification": {
+        "method": "GitHub REST repository and recursive tree",
+        "api_status": 200,
+        "archived": false,
+        "checked_at": "2026-09-29",
+        "http_status": 200,
+        "final_url": "https://github.com/samyk/keysweeper",
+        "tree_sha": "2f4d7b5911a3f8724d21a889c707729cd606f0a4"
+      }
+    },
+    {
+      "projects": [
+        "keysweeper"
+      ],
+      "kind": "code",
+      "label": "Standalone KeySweeper PCB design",
+      "url": "https://github.com/samyk/keysweeper/tree/master/keysweeper_standalone",
+      "evidence_url": "https://github.com/samyk/keysweeper",
+      "verification": {
+        "method": "GitHub REST repository and recursive tree",
+        "api_status": 200,
+        "archived": false,
+        "checked_at": "2026-09-29",
+        "http_status": 200,
+        "final_url": "https://github.com/samyk/keysweeper/tree/master/keysweeper_standalone",
+        "tree_sha": "2f4d7b5911a3f8724d21a889c707729cd606f0a4"
+      },
+      "note": "Standalone variant documented in the original repository."
+    },
+    {
+      "projects": [
+        "tinyalamo"
+      ],
+      "kind": "code",
+      "label": "PyBT source",
+      "url": "https://github.com/mikeryan/PyBT",
+      "evidence_url": "https://github.com/mikeryan/PyBT",
+      "verification": {
+        "method": "GitHub REST repository and recursive tree",
+        "api_status": 200,
+        "archived": false,
+        "checked_at": "2026-09-29",
+        "http_status": 200,
+        "final_url": "https://github.com/mikeryan/PyBT",
+        "tree_sha": "35b8203cfc0a9b181be9ac3adf77a8452a84cba0"
+      }
+    },
+    {
+      "projects": [
+        "tinyalamo"
+      ],
+      "kind": "code",
+      "label": "Ubertooth firmware and hardware",
+      "url": "https://github.com/greatscottgadgets/ubertooth",
+      "evidence_url": "https://greatscottgadgets.com/ubertoothone/",
+      "verification": {
+        "method": "GitHub REST repository and recursive tree",
+        "api_status": 200,
+        "archived": false,
+        "checked_at": "2026-09-29",
+        "http_status": 200,
+        "final_url": "https://github.com/greatscottgadgets/ubertooth",
+        "tree_sha": "c9dfdbd76a95107685b7e43a18719b2f7b1ad4af"
+      }
+    },
+    {
+      "projects": [
+        "porcupinemasquerade"
+      ],
+      "kind": "code",
+      "label": "Paparazzi autopilot source",
+      "url": "https://github.com/paparazzi/paparazzi",
+      "evidence_url": "http://gbppr.net/nsaplayset/porcupinemasquerade/",
+      "verification": {
+        "method": "GitHub REST repository and recursive tree",
+        "api_status": 200,
+        "archived": false,
+        "checked_at": "2026-09-29",
+        "http_status": 200,
+        "final_url": "https://github.com/paparazzi/paparazzi",
+        "tree_sha": "69ccc3ef973b9ae0c1c5290c1c9d36f29b174ba1"
+      }
+    },
+    {
+      "projects": [
+        "porcupinemasquerade"
+      ],
+      "kind": "code",
+      "label": "LISA/M autopilot schematics and PCB",
+      "url": "https://github.com/paparazzi/paparazzi-hardware/tree/master/controller/lisa_m",
+      "evidence_url": "http://gbppr.net/nsaplayset/porcupinemasquerade/",
+      "verification": {
+        "method": "GitHub REST repository and recursive tree",
+        "api_status": 200,
+        "archived": false,
+        "checked_at": "2026-09-29",
+        "http_status": 200,
+        "final_url": "https://github.com/paparazzi/paparazzi-hardware/tree/master/controller/lisa_m",
+        "tree_sha": "7d5677171743b789f4b05dff9dabd75b84640eef"
+      }
+    },
+    {
+      "projects": [
+        "leviticus"
+      ],
+      "kind": "code",
+      "label": "OsmocomBB firmware source",
+      "url": "https://github.com/osmocom/osmocom-bb",
+      "evidence_url": "http://gbppr.net/nsaplayset/leviticus/",
+      "verification": {
+        "method": "GitHub REST repository and recursive tree",
+        "api_status": 200,
+        "archived": false,
+        "checked_at": "2026-09-29",
+        "http_status": 200,
+        "final_url": "https://github.com/osmocom/osmocom-bb",
+        "tree_sha": "6fef14bc6dbdd0370ce1cfff856fc6b10827db50"
+      },
+      "note": "Official GitHub mirror."
+    },
+    {
+      "projects": [
+        "blinkercough"
+      ],
+      "kind": "code",
+      "label": "BLINKERCOUGH firmware and host tools",
+      "url": "https://github.com/r00tkillah/BLINKERCOUGH",
+      "evidence_url": "https://github.com/r00tkillah/BLINKERCOUGH",
+      "verification": {
+        "method": "GitHub REST repository and recursive tree",
+        "api_status": 200,
+        "archived": false,
+        "checked_at": "2026-09-29",
+        "http_status": 200,
+        "final_url": "https://github.com/r00tkillah/BLINKERCOUGH",
+        "tree_sha": "51399fb3043b3eebd9c3f714989e5ed558cc0954"
+      }
+    },
+    {
+      "projects": [
+        "blinkercough"
+      ],
+      "kind": "code",
+      "label": "BLINKERCOUGH schematic and PCB",
+      "url": "https://github.com/r00tkillah/BLINKERCOUGH/tree/master/pcb",
+      "evidence_url": "https://github.com/r00tkillah/BLINKERCOUGH",
+      "verification": {
+        "method": "GitHub REST repository and recursive tree",
+        "api_status": 200,
+        "archived": false,
+        "checked_at": "2026-09-29",
+        "http_status": 200,
+        "final_url": "https://github.com/r00tkillah/BLINKERCOUGH/tree/master/pcb",
+        "tree_sha": "51399fb3043b3eebd9c3f714989e5ed558cc0954"
+      }
+    },
+    {
+      "projects": [
+        "twilightvegetable"
+      ],
+      "kind": "hardware",
+      "label": "RTL-SDR receiver · Hacker Warehouse",
+      "url": "https://hackerwarehouse.com/product/rtlsdr/",
+      "note": "RTL2832U / R820T receiver.",
+      "evidence_url": "http://gbppr.net/nsaplayset/twilightvegetable/",
+      "verification": {
+        "status": 200,
+        "final_url": "https://hackerwarehouse.com/product/rtlsdr/",
+        "bytes": 124836,
+        "checked_at": "2026-09-29",
+        "content_verified": true,
+        "availability": "Add to cart shown",
+        "mapping": "Original ingredient list explicitly requires RTL-SDR. Seller specifies RTL2832U and R820T; this does not certify the historical image on present hardware."
+      }
+    },
+    {
+      "projects": [
+        "tinyalamo"
+      ],
+      "kind": "hardware",
+      "label": "Ubertooth One · Hacker Warehouse",
+      "url": "https://hackerwarehouse.com/product/ubertooth-one/",
+      "note": "Open-hardware clone; original GSG production has ended.",
+      "evidence_url": "http://gbppr.net/nsaplayset/tinyalamo/",
+      "verification": {
+        "status": 200,
+        "final_url": "https://hackerwarehouse.com/product/ubertooth-one/",
+        "bytes": 145840,
+        "checked_at": "2026-09-29",
+        "content_verified": true,
+        "availability": "Add to cart shown",
+        "mapping": "Original ingredient list requires Ubertooth One. Seller explicitly discloses current units are clones."
+      }
+    },
+    {
+      "projects": [
+        "turnipschool"
+      ],
+      "kind": "hardware",
+      "label": "GoodFET42 programmer · Hacker Warehouse",
+      "url": "https://hackerwarehouse.com/product/goodfet42/",
+      "note": "Out of stock when checked.",
+      "evidence_url": "http://gbppr.net/nsaplayset/turnipschool/",
+      "verification": {
+        "status": 200,
+        "final_url": "https://hackerwarehouse.com/product/goodfet42/",
+        "bytes": 113650,
+        "checked_at": "2026-09-29",
+        "content_verified": true,
+        "availability": "Out of stock",
+        "mapping": "Original ingredient list specifies GoodFET for programming. Seller links GoodFET source and hardware."
+      }
+    },
+    {
+      "projects": [
+        "keysweeper"
+      ],
+      "kind": "hardware",
+      "label": "Arduino Pro Mini 3.3V / 8MHz · SparkFun",
+      "url": "https://www.sparkfun.com/arduino-pro-mini-328-3-3v-8mhz.html",
+      "note": "3.3V Pro Mini used in the original build.",
+      "evidence_url": "https://sa.my/keysweeper/",
+      "verification": {
+        "status": 200,
+        "final_url": "https://www.sparkfun.com/arduino-pro-mini-328-3-3v-8mhz.html",
+        "bytes": 629321,
+        "checked_at": "2026-09-29",
+        "content_verified": true,
+        "availability": "In stock",
+        "mapping": "Original project hardware section says its build uses 3.3V Arduino Pro Mini. Merchant has DEV-11114 Arduino Pro Mini 3.3V/8MHz."
+      }
+    },
+    {
+      "projects": [
+        "keysweeper"
+      ],
+      "kind": "hardware",
+      "label": "USB power supply · Adafruit",
+      "url": "https://www.adafruit.com/product/501",
+      "note": "Original parts-list link; enclosure revisions may differ.",
+      "evidence_url": "https://sa.my/keysweeper/",
+      "verification": {
+        "status": 200,
+        "final_url": "https://www.adafruit.com/product/501",
+        "bytes": 86555,
+        "checked_at": "2026-09-29",
+        "content_verified": true,
+        "availability": "In stock",
+        "mapping": "Original project explicitly links Adafruit501 as AC USB charger. Do not claim current enclosure has same screws or internals."
+      }
+    },
+    {
+      "projects": [
+        "keysweeper"
+      ],
+      "kind": "hardware",
+      "label": "FONA GSM module · Adafruit",
+      "url": "https://www.adafruit.com/product/1946",
+      "note": "Original 2G module; no longer stocked.",
+      "evidence_url": "https://sa.my/keysweeper/",
+      "verification": {
+        "status": 200,
+        "final_url": "https://www.adafruit.com/product/1946",
+        "bytes": 88011,
+        "checked_at": "2026-09-29",
+        "content_verified": true,
+        "availability": "No longer stocked",
+        "mapping": "Original project explicitly links Adafruit1946. Seller now says No longer stocked and warns of GSM retirement."
+      }
+    },
+    {
+      "projects": [
+        "keysweeper"
+      ],
+      "kind": "hardware",
+      "label": "SPI flash chip · Adafruit",
+      "url": "https://www.adafruit.com/product/1564",
+      "note": "Original optional flash chip; no longer stocked.",
+      "evidence_url": "https://sa.my/keysweeper/",
+      "verification": {
+        "status": 200,
+        "final_url": "https://www.adafruit.com/product/1564",
+        "bytes": 67986,
+        "checked_at": "2026-09-29",
+        "content_verified": true,
+        "availability": "No longer stocked",
+        "mapping": "Original project explicitly links Adafruit1564 W25Q80BV. Seller now says No longer stocked."
+      }
+    },
+    {
+      "projects": [
+        "porcupinemasquerade"
+      ],
+      "kind": "hardware",
+      "label": "WiFi Pineapple Mark VII · Hacker Warehouse",
+      "url": "https://hackerwarehouse.com/product/wifi-pineapple-mark-vii/",
+      "note": "Later model; original drone integration untested.",
+      "evidence_url": "http://gbppr.net/nsaplayset/porcupinemasquerade/",
+      "verification": {
+        "status": 200,
+        "final_url": "https://hackerwarehouse.com/product/wifi-pineapple-mark-vii/",
+        "bytes": 126519,
+        "checked_at": "2026-09-29",
+        "content_verified": true,
+        "availability": "Add to cart shown",
+        "mapping": "Original calls for WiFi Pineapple without version; project predates 2020 MarkVII release. Link only as related modern family, not exact substitute."
+      }
+    },
+    {
+      "projects": [
+        "chuckwagon"
+      ],
+      "kind": "hardware",
+      "label": "CHUCKWAGON bare PCB · OSH Park",
+      "url": "https://oshpark.com/shared_projects/FfikIrhc",
+      "note": "Bare board from the original design.",
+      "evidence_url": "https://github.com/NSAPlayset/CHUCKWAGON",
+      "verification": {
+        "status": 200,
+        "final_url": "https://oshpark.com/shared_projects/FfikIrhc",
+        "bytes": 44828,
+        "checked_at": "2026-09-29",
+        "content_verified": true,
+        "availability": "Order Board shown",
+        "mapping": "Original README directly links this shared board; live page title DEF CON22 CHUCKWAGON by jbdatko."
+      }
+    },
+    {
+      "projects": [
+        "slotscreamer",
+        "halibutdugout",
+        "alloyviper"
+      ],
+      "kind": "training",
+      "label": "Securing Hardware — Applied Physical Attacks on x86 Systems",
+      "url": "https://securinghardware.com/training/x86/",
+      "note": "PCIe memory access and interface adaptation.",
+      "evidence_url": "https://securinghardware.com/training/x86/",
+      "verification": {
+        "checked_date": "2026-09-29",
+        "http_status": 200,
+        "relevance": "Course outline explicitly lists PCIe memory acquisition, FPGA tools, and adapting PCIe interfaces. Listed as a specialty course in the course catalog."
+      }
+    },
+    {
+      "projects": [
+        "saviorburst"
+      ],
+      "kind": "training",
+      "label": "Securing Hardware — Hands-on JTAG for Fun and Root Shells",
+      "url": "https://securinghardware.com/training/jtag/",
+      "note": "Related workshop using a Raspberry Pi and OpenOCD.",
+      "evidence_url": "https://securinghardware.com/training/jtag/",
+      "verification": {
+        "checked_date": "2026-09-29",
+        "http_status": 200,
+        "relevance": "Primary author workshop covers JTAG setup and debugging; related training, not a SOLDERPEEK build class."
+      }
+    }
+  ],
+  "corrections": [
+    {
+      "projects": [
+        "blinkercough"
+      ],
+      "old_url": "https://github.com/r00tkllah/BLINKERCOUGH",
+      "url": "https://github.com/r00tkillah/BLINKERCOUGH",
+      "note": "The original site omitted the i in the author username; corrected original-author repository verified with source and CAD.",
+      "old_http_status": 404,
+      "credit": "Michael Leibowitz (r00tkillah)",
+      "credit_evidence_url": "https://hardwear.io/wp-content/uploads/2026/06/NSA-Playset-Bridging-the-Airgap-without-Radios-by-Michael-.pdf",
+      "credit_evidence_page": 2
+    },
+    {
+      "projects": [
+        "slotscreamer",
+        "halibutdugout"
+      ],
+      "note": "Original SLOTSCREAMER README explicitly says Inception support moved upstream; use carmaa/inception instead of the stale inception_pci submodule."
+    },
+    {
+      "projects": [
+        "turnipschool"
+      ],
+      "old_url": "https://bitbucket.org/atlas0fd00m/rfcat",
+      "url": "https://github.com/atlas0fd00m/rfcat",
+      "note": "Use the current original-author GitHub repository for RfCat."
+    }
+  ],
+  "unavailable": [
+    {
+      "projects": [
+        "adapternoodle"
+      ],
+      "note": "Original page says under development and TBA; no confirmed published original source or hardware files found.",
+      "evidence_url": "http://gbppr.net/nsaplayset/adapternoodle/"
+    },
+    {
+      "projects": [
+        "cactustutu"
+      ],
+      "note": "Original page lists ingredients and instructions as TBA; no confirmed published original source or hardware files found.",
+      "evidence_url": "http://gbppr.net/nsaplayset/cactustutu/"
+    },
+    {
+      "projects": [
+        "drizzlechair"
+      ],
+      "note": "Original page names Kraken. No primary maintained Kraken source location verified; do not substitute unrelated KrakenSDR or an unattributed fork. SRLabs original overview is live at https://srlabs.de/blog/decrypting-gsm.",
+      "evidence_url": "http://gbppr.net/nsaplayset/drizzlechair/"
+    },
+    {
+      "projects": [
+        "alloyviper"
+      ],
+      "note": "Original author describes a cosmetically modified Thunderbolt cable; no distinct ALLOYVIPER firmware or hardware CAD source confirmed. Use the SLOTSCREAMER author overview and original presentation.",
+      "evidence_url": "https://securinghardware.com/articles/SLOTSCREAMER/"
+    }
+  ]
+}

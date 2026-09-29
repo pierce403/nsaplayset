@@ -20,9 +20,6 @@ url = "https://securinghardware.com/articles/SLOTSCREAMER/"
 [[extra.sources]]
 label = "Historical project page"
 url = "http://gbppr.net/nsaplayset/slotscreamer/"
-[[extra.sources]]
-label = "Source and documentation"
-url = "https://github.com/NSAPlayset/SLOTSCREAMER"
 
 [[extra.gallery]]
 path = "/images/archive/projects/slotscreamer-pcie-board.png"
@@ -33,4 +30,31 @@ caption = "The PCIe board shown in the original DEF CON 22 presentation."
 credit = "Source presentation: Joe FitzPatrick and Miles Crabill, DEF CON 22 (2014)."
 source = "https://raw.githubusercontent.com/NSAPlayset/SLOTSCREAMER/master/Stupid%20PCIe%20Tricks%2C%20featuring%20the%20NSA%20Playset-%20PCIe.pdf"
 page = 47
+
+[[extra.resources]]
+kind = "training"
+label = "Securing Hardware — Applied Physical Attacks on x86 Systems"
+url = "https://securinghardware.com/training/x86/"
+note = "PCIe memory access and interface adaptation."
+
+[[extra.resources]]
+kind = "video"
+label = "NSA Playset: PCIe — DEF CON 22"
+url = "https://www.youtube.com/watch?v=OD2Wxe4RLeU"
+
+[[extra.resources]]
+kind = "video"
+label = "SLOTSCREAMER demo — Joe FitzPatrick"
+url = "https://www.youtube.com/watch?v=SvnvOXXAxaI"
+
+[[extra.resources]]
+kind = "code"
+label = "SLOTSCREAMER firmware and documentation"
+url = "https://github.com/NSAPlayset/SLOTSCREAMER"
+
+[[extra.resources]]
+kind = "code"
+label = "Inception source"
+url = "https://github.com/carmaa/inception"
+note = "Includes SLOTSCREAMER support."
 +++
