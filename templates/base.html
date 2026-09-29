@@ -13,7 +13,7 @@
   <meta property="og:description" content="{{ page_description }}">
   <meta property="og:type" content="website">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
-  <link rel="stylesheet" href="/site.css">
+  <link rel="stylesheet" href="{{ get_url(path='site.css', cachebust=true) | safe }}">
   <script src="/catalog.js" defer></script>
 </head>
 <body>
