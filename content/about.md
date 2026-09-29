@@ -9,4 +9,4 @@ We, the security community have learned a lot in the past couple decades, yet th
 
 Inspired by the NSA ANT catalog, we hope the NSA Playset will make cutting edge security tools more accessible, easier to understand, and harder to forget.
 
-[Original homepage](http://gbppr.net/nsaplayset/) · [Discussion group](https://groups.google.com/g/nsaplayset) · [Archive & sources](/archive/)
+[Original homepage](http://gbppr.net/nsaplayset/) · [Archive & sources](/archive/)

@@ -9,4 +9,4 @@ Check out the [project requirements](/project-requirements/). If you are looking
 
 [Open an issue](https://github.com/pierce403/nsaplayset/issues/new) or submit a pull request to [pierce403/nsaplayset](https://github.com/pierce403/nsaplayset).
 
-[Original contribution page](http://gbppr.net/nsaplayset/contributions/) · [Discussion group](https://groups.google.com/g/nsaplayset)
+[Original contribution page](http://gbppr.net/nsaplayset/contributions/)
