@@ -1,6 +1,6 @@
 +++
 title = "SLOTSCREAMER"
-description = "An open hardware and software framework for exploring PCIe direct memory access."
+description = "SLOTSCREAMER is an inexpensive device configured to access memory and IO, cross-platform and transparent to the OS - all by design with no 0-day needed."
 path = "slotscreamer"
 weight = 2
 [extra]
@@ -13,10 +13,13 @@ category = "Physical Domination"
 interface = "PCIe"
 code = "DMA"
 year = "2014"
-credits = "Joe Fitz"
+credits = "Joe Fitz and Miles Crabill"
 [[extra.sources]]
 label = "Original author\u2019s project overview"
 url = "https://securinghardware.com/articles/SLOTSCREAMER/"
+[[extra.sources]]
+label = "Historical project page"
+url = "http://gbppr.net/nsaplayset/slotscreamer/"
 [[extra.sources]]
 label = "Source and documentation"
 url = "https://github.com/NSAPlayset/SLOTSCREAMER"
@@ -31,11 +34,3 @@ credit = "Source presentation: Joe FitzPatrick and Miles Crabill, DEF CON 22 (20
 source = "https://raw.githubusercontent.com/NSAPlayset/SLOTSCREAMER/master/Stupid%20PCIe%20Tricks%2C%20featuring%20the%20NSA%20Playset-%20PCIe.pdf"
 page = 47
 +++
-
-## Overview
-
-Presented at DEF CON 22, SLOTSCREAMER demonstrates memory and I/O access through PCIe. Its original author describes the behavior as a consequence of the interface design, rather than a zero-day exploit.
-
-## Working with the original project
-
-The author’s repository holds the implementation and documentation. Modern DMA protections and platform configuration can change applicability.

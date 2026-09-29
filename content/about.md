@@ -1,23 +1,12 @@
 +++
-title = "About the Playset"
-description = "Open research, accessible tools, and memorable names."
+title = "About the NSA Playset"
 template = "page.html"
 +++
 
-## A community response
+Welcome to the Home of the NSA Playset.
 
-NSA Playset began as a community effort to make capabilities described in the NSA ANT catalog easier to understand and reproduce through open hardware and software. Michael Ossmann’s [2014 account](https://ossmann.blogspot.com/2014/07/the-nsa-playset.html) describes the idea and credits Dean Pierce with the name.
+We, the security community have learned a lot in the past couple decades, yet the general public is still ill equipped to deal with real threats that face them every day, and ill informed as to what is possible.
 
-The project brings research out of a slide deck and into tangible tools. The catalog groups projects by what they explore: radio interception, physical interfaces, hardware implants, and retroreflectors.
+Inspired by the NSA ANT catalog, we hope the NSA Playset will make cutting edge security tools more accessible, easier to understand, and harder to forget. Now you can play along with the NSA!
 
-## The catalog today
-
-This edition collects source-backed summaries and reconnects historical project names with their original work. Entries retain credits and link to available designs, presentations, and repositories.
-
-Historical dates describe the original work, not a recent release. Current compatibility, maintenance, and availability remain unverified unless an entry says otherwise.
-
-## Further reading
-
-- [Michael Ossmann: The NSA Playset (2014)](https://ossmann.blogspot.com/2014/07/the-nsa-playset.html)
-- [The NSA Playset: A Year of Toys and Tools — Black Hat 2015](https://www.blackhat.com/docs/us-15/materials/us-15-Ossmann-The-NSA-Playset-A-Year-Of-Toys-And-Tools.pdf)
-- [Archive and recovery notes](/archive/)
+[Original homepage](http://gbppr.net/nsaplayset/) · [Discussion group](https://groups.google.com/g/nsaplayset) · [Archive & sources](/archive/)

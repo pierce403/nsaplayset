@@ -33,3 +33,10 @@ Recover missing original assets as available. They are not required for the site
 - White paper, graphite rules, serif headings, and simpler catalog rows replace the previous block design. Source photos and board drawings retain their colors.
 - Checked the homepage and project gallery at a 390-pixel mobile viewport and the homepage at 1280 pixels. No horizontal overflow; search, combined-filter empty state, and reset work. Images remain legible when a browser dark-theme override is applied.
 - Source PDFs were inspected to verify image extraction. One photograph required rendering its PDF image bounds to preserve the source colors; that exception is documented in its provenance entry.
+
+## Original copy restoration
+
+- Removed the added slogans, illustration caption, contribution banner, and repeated editorial paragraphs from project pages.
+- Reused the original homepage mission and project descriptions from the GBPPR mirror; HALIBUTDUGOUT and ALLOYVIPER descriptions come from the author's overview. Restored the original requirements headings and Open Problems category/item list.
+- Preserved image credits and source links. Added the missing original credits for Loki (Nick Jacobsen) and Miles Crabill.
+- Production build and generated-link checks pass for all 14 HTML pages and 22 redirects. Inspected the revised homepage at mobile and desktop widths.

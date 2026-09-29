@@ -1,6 +1,6 @@
 +++
 title = "ALLOYVIPER"
-description = "A disguised Thunderbolt cable used with the HALIBUTDUGOUT demonstration."
+description = "A thunderbolt cable cosmetically modified to look like a Displayport to VGA adapter."
 path = "alloyviper"
 weight = 7
 [extra]
@@ -49,10 +49,4 @@ source = "https://raw.githubusercontent.com/NSAPlayset/SLOTSCREAMER/master/Stupi
 page = 89
 +++
 
-## Overview
-
-The author describes a Thunderbolt cable modified to resemble a DisplayPort-to-VGA adapter, illustrating how the appearance of a connector can mislead its user.
-
-## Working with the original project
-
-This historical demonstration belongs to the SLOTSCREAMER and HALIBUTDUGOUT family.
+[SLOTSCREAMER](/slotscreamer/) · [HALIBUTDUGOUT](/halibutdugout/)

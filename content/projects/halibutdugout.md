@@ -1,6 +1,6 @@
 +++
 title = "HALIBUTDUGOUT"
-description = "A Thunderbolt enclosure housing a SLOTSCREAMER device."
+description = "A thunderbolt enclosure containing a SLOTSCREAMER device."
 path = "halibutdugout"
 weight = 6
 [extra]
@@ -32,10 +32,4 @@ source = "https://raw.githubusercontent.com/NSAPlayset/SLOTSCREAMER/master/Stupi
 page = 72
 +++
 
-## Overview
-
-HALIBUTDUGOUT extends the SLOTSCREAMER demonstration to Thunderbolt hosts using an enclosure. It was described alongside SLOTSCREAMER in the author’s 2014 project overview.
-
-## Working with the original project
-
-See SLOTSCREAMER for the related framework and upstream documentation. Current Thunderbolt security controls can affect applicability.
+[SLOTSCREAMER](/slotscreamer/) · [ALLOYVIPER](/alloyviper/)

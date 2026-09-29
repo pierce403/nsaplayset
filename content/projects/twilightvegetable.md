@@ -1,6 +1,6 @@
 +++
 title = "TWILIGHTVEGETABLE"
-description = "A bootable environment for exploring GSM communications and cellular security."
+description = "TWILIGHTVEGETABLE is an easy to use, boot and pwn toolkit for passive monitoring of GSM communications."
 path = "twilightvegetable"
 weight = 1
 [extra]
@@ -9,13 +9,13 @@ category = "Passive Radio Interception"
 interface = "GSM"
 code = "RF"
 year = "2014"
-credits = "Dean Pierce"
+credits = "Dean Pierce and Loki (Nick Jacobsen)"
 [[extra.sources]]
 label = "Historical project mirror"
-url = "https://gbppr.net/nsaplayset/twilightvegetable/"
+url = "http://gbppr.net/nsaplayset/twilightvegetable/"
 [[extra.sources]]
 label = "Original GSM presentation (mirror)"
-url = "https://gbppr.net/nsaplayset/twilightvegetable/NSA-PLAYSET-GSM.pdf"
+url = "http://gbppr.net/nsaplayset/twilightvegetable/NSA-PLAYSET-GSM.pdf"
 
 [[extra.gallery]]
 path = "/images/archive/projects/twilightvegetable-airprobe.png"
@@ -27,10 +27,7 @@ credit = "Source: NSAPlayset/TWILIGHTVEGETABLE; its README references BogdanDIA/
 source = "https://raw.githubusercontent.com/NSAPlayset/TWILIGHTVEGETABLE/master/airprobe-hopping.png"
 +++
 
-## Overview
+## Ingredients
 
-A historical GSM research project contributed by Dean Pierce. The archived presentation provides context for the original cellular-security work.
-
-## Working with the original project
-
-The original boot image and its compatibility with present-day hardware have not been recovered or tested here.
+- TWILIGHTVEGETABLE boot image
+- RTL-SDR

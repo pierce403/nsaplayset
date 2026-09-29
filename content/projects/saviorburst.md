@@ -1,6 +1,6 @@
 +++
 title = "SAVIORBURST"
-description = "An open hardware implementation inspired by the ANT catalog\u2019s GODSURGE."
+description = "SAVIORBURST is an open source hardware reimplementation of GODSURGE from the ANT Catalog."
 path = "saviorburst"
 weight = 5
 [extra]
@@ -16,7 +16,7 @@ year = "Historical"
 credits = "NSAPlayset / SAVIORBURST contributors"
 [[extra.sources]]
 label = "Historical project page"
-url = "https://gbppr.net/nsaplayset/saviorburst/"
+url = "http://gbppr.net/nsaplayset/saviorburst/"
 [[extra.sources]]
 label = "Source repository"
 url = "https://github.com/NSAPlayset/SAVIORBURST"
@@ -68,10 +68,4 @@ credit = "Source: NSAPlayset/SAVIORBURST. The board artwork credits @securelyfit
 source = "https://raw.githubusercontent.com/NSAPlayset/SAVIORBURST/master/SOLDERPEEK/solderpeek-sch.png"
 +++
 
-## Overview
-
-The historical project pairs a SAVIORBURST payload with the SOLDERPEEK JTAG implant, modeled after FLUXBABBIT. Its design illustrates hardware-assisted access through a debug interface.
-
-## Working with the original project
-
-The source repository is the reference for platform-specific details. This entry does not imply support for modern hardware.
+It is loaded on to the SOLDERPEEK JTAG implant which is modeled after FLUXBABBIT from the ANT catalog.

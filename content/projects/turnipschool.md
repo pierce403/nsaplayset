@@ -1,6 +1,6 @@
 +++
 title = "TURNIPSCHOOL"
-description = "A USB-cable hardware implant with a short-range radio interface."
+description = "TURNIPSCHOOL is a hardware implant concealed in a USB cable."
 path = "turnipschool"
 weight = 3
 [extra]
@@ -12,7 +12,7 @@ year = "2015"
 credits = "Dominic Spill, Michael Ossmann, and Karoline Busse"
 [[extra.sources]]
 label = "Historical project page"
-url = "https://www.gbppr.net/nsaplayset/turnipschool/"
+url = "http://gbppr.net/nsaplayset/turnipschool/"
 [[extra.sources]]
 label = "Hardware design"
 url = "https://github.com/mossmann/cc11xx/tree/master/turnipschool"
@@ -24,10 +24,6 @@ label = "ShmooCon proceedings"
 url = "https://shmoo.gitbook.io/2015-shmoocon-proceedings/build_it/01_nsa_playset_usb_tools"
 +++
 
-## Overview
+It provides short range RF communication capability to software running on the host computer.
 
-TURNIPSCHOOL combines a concealed cable implant with radio communication. The original project describes host-software communication and the alternative use of a radio-controlled custom USB device. A working prototype was presented at ShmooCon 2015.
-
-## Working with the original project
-
-The linked hardware design and enclosure project preserve the original work. Firmware, components, and build instructions should be checked against the upstream sources before attempting a reproduction.
+A fully functional prototype was presented at ShmooCon 2015.

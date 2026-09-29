@@ -1,23 +1,26 @@
 +++
 title = "Project requirements"
-description = "A practical checklist for contributions to this edition."
 template = "page.html"
 +++
 
-## Describe the capability
+## A Silly Name
 
-Explain what the project demonstrates, how it relates to security research, and any connection to an ANT catalog concept. A memorable project name helps people find and discuss it.
+Choose a name, optionally based on the related ANT project.
 
-## Make it reproducible
+## A Category
 
-- Link to source code, schematics, and original documentation.
-- List required hardware and software versions.
-- Distinguish tested behavior from a proposed design.
-- Include enough setup context for another researcher to reproduce your results.
-- Credit contributors and document licensing.
+Passive Radio Interception, Active Radio Injection, Physical Domination, Hardware Implants, Software Implants, or Network Reconnaissance.
 
-## Keep the record current
+## An Exact Scope or Escalation
 
-Date compatibility reports. Say when a component is unavailable or instructions rely on obsolete software. Historical projects are welcome; clear status matters more than a claim of freshness.
+Specify a concrete, repeatable result. A general-purpose component alone does not qualify.
 
-These are editorial guidelines for this rebuild. They are not a verbatim recovery of the original requirements page. The historical `/project-requirements` URL is preserved.
+## A list of Ingredients
+
+List required hardware and software, with part numbers and links.
+
+## Detailed Instructions for Reproducing Results
+
+Provide simple steps and prebuilt software. The original requirements expected reproduction without soldering or compiling code.
+
+[Original requirements](http://gbppr.net/nsaplayset/project-requirements/)

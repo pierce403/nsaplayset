@@ -1,19 +1,20 @@
 +++
 title = "Open problems"
-description = "Help recover the archive and document what has changed."
 template = "page.html"
 +++
 
-## Recover the original site
+Research topics from the [original Open Problems list](http://gbppr.net/nsaplayset/openproblems/). These names refer to entries in the ANT catalog.
 
-The original navigation listed additional projects, including LEVITICUS, DRIZZLECHAIR, PORCUPINEMASQUERADE, ADAPTERNOODLE, BROKENGLASS, CHUCKWAGON, CACTUSTUTU, and TINYALAMO. We still need reliable project records, original assets, and exact URL confirmation before presenting complete entries for them.
-
-## Revalidate historical designs
-
-A historical demonstration is not a compatibility report for a modern system. Dated reproduction notes, updated component lists, and documentation of mitigations would make the catalog more useful.
-
-## Preserve the evidence
-
-Original PDFs, images, and source archives are especially valuable. Record where each file came from and preserve its filename, attribution, and license information.
-
-The [mirrored Open Problems page](https://gbppr.net/nsaplayset/openproblems/) contains the older research list. The tasks on this page concern the current archive rebuild.
+| Category | ANT entries |
+| --- | --- |
+| Plug-N-Pwn | COTTONMOUTH-I, COTTONMOUTH-II, COTTONMOUTH-III |
+| Network Recon | BANANAGLEE, ZESTYLEAK, JETPLOW, FEEDTROUGH, GOURMETTROUGH, SOUFFLETROUGH, HALLUXWATER, HEADWATER, SCHOOLMONTANA, SIERRAMONTANA, STUCCOMONTANA |
+| GSM Stuff | CANDYGRAM, CYCLONE-HX9, EBSR, NEBULA, TYPHON HX, HOLLOWPOINT, WATERWITCH, GENESIS, PICASSO, ENTOURAGE |
+| SIM stuff | GOPHERSET, MONKEYCALENDAR |
+| Phone rootkits | TOTECHASER, TOTEGHOSTLY, DROPOUTJEEP |
+| Retro-Reflectors | RAGEMASTER, LOUDAUTO, CTX4000, PHOTOANGLO, NIGHTWATCH, TAWDRYYARD, SURLYSPAWN |
+| Firmware Implants | IRATEMONK, IRONCHEF, DEITYBOUNCE, SWAP |
+| Hardware Implants | WAGONBED, CROSSBEAM, BULLDOZER, FIREWALK |
+| Software Implants | WISTFULTOLL, SOMBERKNAVE |
+| Generic hardware | JUNIORMINT, TRINITY, MAESTRO-II, HOWLERMONKEY |
+| Wifi Tools | NIGHTSTAND, SPARROW II |
