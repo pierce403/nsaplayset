@@ -1,0 +1,34 @@
+[
+  {
+    "path": "/ossmann_hitb2014.pdf",
+    "source": "http://gbppr.net/nsaplayset/ossmann_hitb2014.pdf",
+    "bytes": 10445121,
+    "sha256": "c11474e359eacc541d235a0ee3865e90e8ca4fc71ab193c0b5f4d8eb42a621f4",
+    "retrieved": "2026-09-29",
+    "notes": "Original mirror bytes retained; upstream authorship and rights apply."
+  },
+  {
+    "path": "/nsa_ant_catalog.pdf",
+    "source": "http://gbppr.net/nsaplayset/nsa_ant_catalog.pdf",
+    "bytes": 7198723,
+    "sha256": "296ab7065d30a883591d4f181fae6a29059cc56ce3501ee7fdf230738bbaffe2",
+    "retrieved": "2026-09-29",
+    "notes": "Original mirror bytes retained; upstream authorship and rights apply."
+  },
+  {
+    "path": "/twilightvegetable/NSA-PLAYSET-GSM.pdf",
+    "source": "http://gbppr.net/nsaplayset/twilightvegetable/NSA-PLAYSET-GSM.pdf",
+    "bytes": 587610,
+    "sha256": "c62404a2205fa081031e739e7066b3e295deddcb01d98e76c528918ef657c8ef",
+    "retrieved": "2026-09-29",
+    "notes": "Original mirror bytes retained; upstream authorship and rights apply."
+  },
+  {
+    "path": "/chuckwagon/dc_22_diy_hardware_implant.pdf",
+    "source": "http://gbppr.net/nsaplayset/chuckwagon/dc_22_diy_hardware_implant.pdf",
+    "bytes": 10347380,
+    "sha256": "5c95db795113d5951859697319b83538905cd736d8c8dc922b4a8461ec3fb1ab",
+    "retrieved": "2026-09-29",
+    "notes": "Original mirror bytes retained; upstream authorship and rights apply."
+  }
+]

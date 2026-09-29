@@ -40,3 +40,11 @@ Recover missing original assets as available. They are not required for the site
 - Reused the original homepage mission and project descriptions from the GBPPR mirror; HALIBUTDUGOUT and ALLOYVIPER descriptions come from the author's overview. Restored the original requirements headings and Open Problems category/item list.
 - Preserved image credits and source links. Added the missing original credits for Loki (Nick Jacobsen) and Miles Crabill.
 - Production build and generated-link checks pass for all 14 HTML pages and 22 redirects. Inspected the revised homepage at mobile and desktop widths.
+
+## Wikipedia backlink recovery
+
+- Audited 34 bounded source documents; recorded exact, printed, and archived URLs in `docs/inbound-links.json`. Five external sources were unavailable (three 404s, one connection reset, one TLS hostname mismatch).
+- Restored nine missing project pages and four original PDF files. All fourteen projects from the original navigation are now present, alongside HALIBUTDUGOUT and ALLOYVIPER.
+- Build checks pass for 23 HTML documents and 28 redirects. The build also verifies every inbound route and SHA-256 hashes of the recovered PDFs.
+- Local Pages HTTP checks pass for all 28 redirects, existing pages/assets, security headers, and real 404s. Browser checks confirmed the restored PORCUPINEMASQUERADE page and Active Radio Injection filter (2 of 16 projects).
+- `scripts/check-inbound-links.py` provides 114 public checks for exact destinations, host/protocol variants, content types, titles, query preservation, and fragments. Initial live failures are documented in `docs/LINK_AUDIT.md`; rerun after deployment for current results.

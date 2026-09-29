@@ -1,6 +1,6 @@
 # NSA Playset
 
-A static, source-backed security research catalog built with Zola. Source: [pierce403/nsaplayset](https://github.com/pierce403/nsaplayset). Live at [nsaplayset.org](https://nsaplayset.org) on Cloudflare Pages. No backend, database, runtime npm dependencies, external fonts, analytics, or runtime API calls. Wrangler is a pinned development dependency for Cloudflare preview and deployment.
+A static, source-backed security research catalog built with Zola. Source: [pierce403/nsaplayset](https://github.com/pierce403/nsaplayset). Live at [nsaplayset.org](https://nsaplayset.org) on Cloudflare Pages. No backend, database, runtime npm dependencies, external fonts, or runtime API calls. Wrangler is a pinned development dependency for Cloudflare preview and deployment.
 
 ## Local development
 
@@ -39,7 +39,7 @@ Production builds keep `https://nsaplayset.org` as their base URL. Non-`main` Cl
 
 Both `nsaplayset.org` and `www.nsaplayset.org` are attached in Cloudflare with HTTPS. The active Cloudflare Redirect Rule `Redirect www to nsaplayset.org` matches `http.host eq "www.nsaplayset.org"`, redirects with 301 to `concat("https://nsaplayset.org", http.request.uri.path)`, and preserves the query string. HTTP also redirects to HTTPS. These account-level settings are managed in the Cloudflare dashboard, not by the repository. Production canonical URLs and the sitemap use `https://nsaplayset.org`.
 
-The generated `_redirects` handles historical extensionless paths and temporary missing-asset routes. The top-level `404.html` ensures genuine unknown URLs remain 404s rather than an SPA homepage fallback. Verify response codes and host redirects after deployment; a static build cannot validate Cloudflare account configuration.
+The generated `_redirects` handles historical extensionless paths and aliases. The top-level `404.html` ensures genuine unknown URLs remain 404s rather than an SPA homepage fallback. Verify response codes and host redirects after deployment; a static build cannot validate Cloudflare account configuration.
 
 No credentials or deployment secrets are required in this repo. GitHub Actions builds and checks the output, but does not publish it. Cloudflare builds from Git through the existing **Connect to Git** integration. Keep this integration for automatic releases.
 
@@ -58,7 +58,7 @@ For an exceptional manual release to the existing Pages project `nsaplayset`, au
 
 ## Add or edit a project
 
-Copy an existing file under `content/projects/`. Set `title`, `description`, `weight`, and a root-level `path` such as `twilightvegetable`. Keep the `extra` metadata used by `templates/project.html`: number, category, interface, code, year, credits, and sources. Supported filter categories are the four original categories in `templates/index.html`.
+Copy an existing file under `content/projects/`. Set `title`, `description`, `weight`, and a root-level `path` such as `twilightvegetable`. Keep the `extra` metadata used by `templates/project.html`: number, category, interface, code, year, credits, and sources. Filter categories are generated from the project metadata.
 
 Write the body in Markdown. Link to primary sources, credit original work, and distinguish historical claims from current tested status. The homepage is generated from all project pages automatically; search runs locally in the browser and all entries remain readable without JavaScript.
 
@@ -66,9 +66,21 @@ Write the body in Markdown. Link to primary sources, credit original work, and d
 
 `docs/legacy-urls.csv` records path provenance. `static/_redirects` is the routing source of truth. Do not infer original paths merely by lowercasing project names. HALIBUTDUGOUT and ALLOYVIPER are new routes for historically documented projects.
 
-Recovery remains partial: seven project records are included; additional project names are listed on Open Problems without invented specifications. The original site wordmark and pencil illustration, plus 11 project photographs and diagrams, have been recovered. Image origins, credits, dimensions, and hashes are recorded in `docs/site-graphics.json` and `docs/project-graphics.json`. Original downloadable documents have not yet been restored to the historical routes. Three known download paths temporarily redirect to the archive explanation with **302**, not to unrelated replacement documents. Restore exact files under `static/` and remove the matching redirect when recovered.
+The catalog contains the fourteen projects in the original navigation plus HALIBUTDUGOUT and ALLOYVIPER. The original site wordmark and pencil illustration, plus 11 project photographs and diagrams, have been recovered. Image origins, credits, dimensions, and hashes are recorded in `docs/site-graphics.json` and `docs/project-graphics.json`. Four original PDFs are served at their historical mirror paths, with provenance and byte hashes in `docs/downloads.json`.
 
-The project requirements and open-problems pages are new editorial guidance, not recovered copies. Original contributor names and project summaries have linked provenance. No license for third-party hardware, code, or media is implied; upstream licenses apply. A license for the new site code has intentionally not been selected on the owner's behalf.
+The requirements headings and Open Problems research list were recovered from the old site; requirements explanations are concise summaries. Original contributor names and project summaries have linked provenance. No license for third-party hardware, code, or media is implied; upstream licenses apply. A license for the new site code has intentionally not been selected on the owner's behalf.
+
+## Inbound-link audit
+
+The [audit report](docs/LINK_AUDIT.md) records Wikipedia, its Playset references, their immediate related sources, and the old-site navigation. `docs/inbound-links.json` preserves observed URLs, archived/printed URLs, source availability, and 114 bounded first-party checks. The build checks that these paths still exist and that restored PDF hashes match their sources.
+
+After deployment, verify host redirects, status codes, destination titles, PDF responses, and fragments:
+
+```sh
+python3 scripts/check-inbound-links.py --output tmp/link-audit/live.json
+```
+
+This checks only the recorded first-party URLs. It does not crawl third-party sites or run periodically.
 
 ## Contributing code
 

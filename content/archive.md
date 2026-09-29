@@ -19,15 +19,16 @@ Eleven photographs and diagrams come from the original project repositories and 
 
 Each image links to its source. Original authors retain their rights.
 
-## Missing downloads
+<span id="missing-downloads"></span>
 
-These files have not yet been restored at their original URLs:
+## Downloads
 
-- `/ossmann_hitb2014.pdf` — HITB 2014 presentation.
-- `/nsa_ant_catalog.pdf` — ANT catalog.
-- `/twilightvegetable/NSA-PLAYSET-GSM.pdf` — GSM presentation; available from the [mirror](http://gbppr.net/nsaplayset/twilightvegetable/NSA-PLAYSET-GSM.pdf).
+- [HITB 2014 presentation](/ossmann_hitb2014.pdf)
+- [ANT catalog](/nsa_ant_catalog.pdf)
+- [NSA Playset: GSM](/twilightvegetable/NSA-PLAYSET-GSM.pdf)
+- [CHUCKWAGON: DIY Hardware Implant over I²C](/chuckwagon/dc_22_diy_hardware_implant.pdf)
 
-Those URLs redirect here until the files are restored.
+Files recovered from the original site mirror; their bytes are unchanged.
 
 ## References
 

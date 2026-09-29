@@ -18,11 +18,17 @@
 /open-problems/ /openproblems/ 301
 /contribute /contributions/ 301
 /contribute/ /contributions/ 301
-# Missing assets: temporary redirects to an honest recovery note.
-# Remove each rule when the exact original file is restored under static/.
-/ossmann_hitb2014.pdf /archive/#missing-downloads 302
-/nsa_ant_catalog.pdf /archive/#missing-downloads 302
-/twilightvegetable/NSA-PLAYSET-GSM.pdf /archive/#missing-downloads 302
 # Recovered original site graphics, now served with documented provenance.
 /customLogo.gif /images/archive/nsa-playset-logo.png 301
 /hackrf-kid.png /images/archive/hackrf-kid.png 301
+
+# Original project pages recovered during the Wikipedia backlink audit.
+/adapternoodle /adapternoodle/ 301
+/blinkercough /blinkercough/ 301
+/cactustutu /cactustutu/ 301
+/chuckwagon /chuckwagon/ 301
+/drizzlechair /drizzlechair/ 301
+/keysweeper /keysweeper/ 301
+/leviticus /leviticus/ 301
+/porcupinemasquerade /porcupinemasquerade/ 301
+/tinyalamo /tinyalamo/ 301

@@ -1,0 +1,1285 @@
+{
+  "checked_date": "2026-09-29",
+  "scope": "Playset references and external links from ANT catalog Wikipedia, their immediately linked Playset sources, and the old site mirror navigation. Not an unrestricted crawl.",
+  "sources": [
+    {
+      "source_url": "https://en.wikipedia.org/wiki/ANT_catalog",
+      "http_status": 200,
+      "status": "accessible",
+      "targets": [
+        "http://www.nsaplayset.org/"
+      ],
+      "note": "Playset section, references20\u201324 and Playset external links; revision1374882568."
+    },
+    {
+      "source_url": "https://www.vice.com/en/article/michael-ossmann-and-the-nsa-playset/",
+      "http_status": 200,
+      "final_url": "https://www.vice.com/en/article/michael-ossmann-and-the-nsa-playset/",
+      "status": "accessible",
+      "targets": [
+        "http://www.nsaplayset.org/project-requirements",
+        "http://www.nsaplayset.org/twilightvegetable",
+        "http://www.nsaplayset.org/porcupinemasquerade"
+      ],
+      "related_playset_links": [
+        "http://cryptotronix.com/2014/08/11/dc22/"
+      ]
+    },
+    {
+      "source_url": "https://www.zdnet.com/article/nsa-playset-invites-hackers-to-play-along-with-the-nsa/",
+      "http_status": 200,
+      "final_url": "https://www.zdnet.com/article/nsa-playset-invites-hackers-to-play-along-with-the-nsa/",
+      "status": "accessible",
+      "targets": [
+        "http://www.nsaplayset.org/",
+        "http://www.nsaplayset.org/openproblems",
+        "http://www.nsaplayset.org/twilightvegetable",
+        "http://www.nsaplayset.org/project-requirements"
+      ],
+      "related_playset_links": [
+        "http://haxpo.nl/hitb2014ams-michael-ossmann/",
+        "http://haxpo.nl/wp-content/uploads/2014/01/D1T1-The-NSA-Playset.pdf"
+      ]
+    },
+    {
+      "source_url": "https://arstechnica.com/information-technology/2015/08/the-nsa-playset-espionage-tools-for-the-rest-of-us/",
+      "http_status": 200,
+      "final_url": "https://arstechnica.com/information-technology/2015/08/the-nsa-playset-espionage-tools-for-the-rest-of-us/",
+      "status": "accessible",
+      "targets": [
+        "http://nsaplayset.org",
+        "http://www.nsaplayset.org/"
+      ],
+      "related_playset_links": [
+        "https://arstechnica.com/information-technology/2015/01/playing-nsa-hardware-hackers-build-usb-cable-that-can-attack/",
+        "https://github.com/carmaa/inception"
+      ]
+    },
+    {
+      "source_url": "https://cryptotronix.com/2014/08/11/dc22/",
+      "http_status": 200,
+      "final_url": "https://cryptotronix.com/2014/08/11/dc22/",
+      "status": "accessible",
+      "targets": [],
+      "related_playset_links": [
+        "https://www.defcon.org/html/defcon-22/dc-22-speakers.html#Datko"
+      ]
+    },
+    {
+      "source_url": "https://arstechnica.com/information-technology/2015/01/playing-nsa-hardware-hackers-build-usb-cable-that-can-attack/",
+      "http_status": 200,
+      "final_url": "https://arstechnica.com/information-technology/2015/01/playing-nsa-hardware-hackers-build-usb-cable-that-can-attack/",
+      "status": "accessible",
+      "targets": [
+        "http://www.nsaplayset.org/"
+      ],
+      "related_playset_links": []
+    },
+    {
+      "source_url": "http://haxpo.nl/hitb2014ams-michael-ossmann/",
+      "status": "source_unavailable",
+      "http_status": 404,
+      "targets": [],
+      "note": "HTTP Error 404: Not Found",
+      "related_playset_links": []
+    },
+    {
+      "source_url": "http://haxpo.nl/wp-content/uploads/2014/01/D1T1-The-NSA-Playset.pdf",
+      "status": "source_unavailable",
+      "http_status": 404,
+      "targets": [],
+      "note": "HTTP Error 404: Not Found",
+      "related_playset_links": []
+    },
+    {
+      "source_url": "http://gbppr.net/nsaplayset/adapternoodle/",
+      "http_status": 200,
+      "status": "accessible",
+      "targets": []
+    },
+    {
+      "source_url": "http://gbppr.net/nsaplayset/blinkercough/",
+      "http_status": 200,
+      "status": "accessible",
+      "targets": []
+    },
+    {
+      "source_url": "http://gbppr.net/nsaplayset/cactustutu/",
+      "http_status": 200,
+      "status": "accessible",
+      "targets": []
+    },
+    {
+      "source_url": "http://gbppr.net/nsaplayset/chuckwagon/",
+      "http_status": 200,
+      "status": "accessible",
+      "targets": []
+    },
+    {
+      "source_url": "http://gbppr.net/nsaplayset/congaflock/",
+      "http_status": 200,
+      "status": "accessible",
+      "targets": []
+    },
+    {
+      "source_url": "http://gbppr.net/nsaplayset/contributions/",
+      "http_status": 200,
+      "status": "accessible",
+      "targets": []
+    },
+    {
+      "source_url": "http://gbppr.net/nsaplayset/drizzlechair/",
+      "http_status": 200,
+      "status": "accessible",
+      "targets": []
+    },
+    {
+      "source_url": "http://gbppr.net/nsaplayset/keysweeper/",
+      "http_status": 200,
+      "status": "accessible",
+      "targets": []
+    },
+    {
+      "source_url": "http://gbppr.net/nsaplayset/leviticus/",
+      "http_status": 200,
+      "status": "accessible",
+      "targets": []
+    },
+    {
+      "source_url": "http://gbppr.net/nsaplayset/openproblems/",
+      "http_status": 200,
+      "status": "accessible",
+      "targets": []
+    },
+    {
+      "source_url": "http://gbppr.net/nsaplayset/porcupinemasquerade/",
+      "http_status": 200,
+      "status": "accessible",
+      "targets": []
+    },
+    {
+      "source_url": "http://gbppr.net/nsaplayset/project-requirements/",
+      "http_status": 200,
+      "status": "accessible",
+      "targets": []
+    },
+    {
+      "source_url": "http://gbppr.net/nsaplayset/saviorburst/",
+      "http_status": 200,
+      "status": "accessible",
+      "targets": []
+    },
+    {
+      "source_url": "http://gbppr.net/nsaplayset/slotscreamer/",
+      "http_status": 200,
+      "status": "accessible",
+      "targets": []
+    },
+    {
+      "source_url": "http://gbppr.net/nsaplayset/tinyalamo/",
+      "http_status": 200,
+      "status": "accessible",
+      "targets": []
+    },
+    {
+      "source_url": "http://gbppr.net/nsaplayset/turnipschool/",
+      "http_status": 200,
+      "status": "accessible",
+      "targets": []
+    },
+    {
+      "source_url": "http://gbppr.net/nsaplayset/twilightvegetable/",
+      "http_status": 200,
+      "status": "accessible",
+      "targets": []
+    },
+    {
+      "source_url": "http://gbppr.net/nsaplayset/",
+      "http_status": 200,
+      "status": "accessible",
+      "targets": []
+    },
+    {
+      "source_url": "https://ossmann.blogspot.co.at/2014/07/the-nsa-playset.html",
+      "http_status": 200,
+      "final_url": "https://ossmann.blogspot.com/2014/07/the-nsa-playset.html",
+      "status": "accessible",
+      "targets": [
+        "http://www.nsaplayset.org/"
+      ],
+      "printed_urls": []
+    },
+    {
+      "source_url": "https://www.blackhat.com/docs/us-15/materials/us-15-Ossmann-The-NSA-Playset-A-Year-Of-Toys-And-Tools.pdf",
+      "http_status": 200,
+      "final_url": "https://blackhat.com/docs/us-15/materials/us-15-Ossmann-The-NSA-Playset-A-Year-Of-Toys-And-Tools.pdf",
+      "status": "accessible",
+      "targets": [],
+      "printed_urls": [
+        {
+          "page": 26,
+          "url": "nsaplayset.org",
+          "normalized_url": "http://nsaplayset.org/"
+        }
+      ],
+      "inspection": "26 image-only pages; no link annotations. All pages rendered and visually checked; printed URL on final slide."
+    },
+    {
+      "source_url": "http://ossmann.com/ossmann-pierce-toorcamp2014.pdf",
+      "http_status": 200,
+      "final_url": "http://ossmann.com/ossmann-pierce-toorcamp2014.pdf",
+      "status": "accessible",
+      "targets": [],
+      "printed_urls": [
+        {
+          "page": 86,
+          "url": "nsaplayset.org",
+          "normalized_url": "http://nsaplayset.org/"
+        },
+        {
+          "page": 87,
+          "url": "www.nsaplayset.org/openproblems",
+          "normalized_url": "http://www.nsaplayset.org/openproblems"
+        },
+        {
+          "page": 89,
+          "url": "nsaplayset.org",
+          "normalized_url": "http://nsaplayset.org/"
+        },
+        {
+          "page": 87,
+          "url": "http://www.nsaplayset.org/nsa_ant_catalog.pdf",
+          "normalized_url": "http://www.nsaplayset.org/nsa_ant_catalog.pdf",
+          "note": "Visible hyperlink text in screenshot of historical openproblems page; not an active PDF annotation."
+        }
+      ],
+      "inspection": "89 image-only pages; no link annotations. All pages rendered and visually checked; OCR recovered page87 screenshot URL."
+    },
+    {
+      "source_url": "http://toorcamp.toorcon.net/talks/#34",
+      "http_status": 404,
+      "final_url": null,
+      "status": "source_unavailable",
+      "targets": [],
+      "printed_urls": [],
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "source_url": "https://archive.org/details/nsaplayset-toorcamp2014",
+      "http_status": 200,
+      "final_url": "https://archive.org/details/nsaplayset-toorcamp2014",
+      "status": "accessible",
+      "targets": [],
+      "printed_urls": []
+    },
+    {
+      "source_url": "https://www.defcon.org/html/defcon-22/dc-22-speakers.html",
+      "http_status": null,
+      "final_url": null,
+      "status": "source_unavailable",
+      "targets": [],
+      "printed_urls": [],
+      "error": "[Errno 104] Connection reset by peer",
+      "notes": "Also retried non-www HTTPS hostname and web fetch; unavailable. No target extraction possible."
+    },
+    {
+      "source_url": "http://defcon-wireless-village.com/speakers.html#the_nsa_playset",
+      "http_status": null,
+      "final_url": null,
+      "status": "source_unavailable",
+      "targets": [],
+      "printed_urls": [],
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.defcon-wireless-village.com'. (_ssl.c:1081)>"
+    },
+    {
+      "source_url": "https://web.archive.org/web/20230130151012/http://www.nsaplayset.org/",
+      "targets": [],
+      "note": "Archived homepage link present twice on Wikipedia; archive availability is outside this site.",
+      "http_status": 200,
+      "status": "accessible",
+      "final_url": "https://web.archive.org/web/20230130151012/http://www.nsaplayset.org/",
+      "archived_original_targets": [
+        "http://www.nsaplayset.org/",
+        "http://www.nsaplayset.org/adapternoodle",
+        "http://www.nsaplayset.org/blinkercough",
+        "http://www.nsaplayset.org/cactustutu",
+        "http://www.nsaplayset.org/chuckwagon",
+        "http://www.nsaplayset.org/congaflock",
+        "http://www.nsaplayset.org/contributions",
+        "http://www.nsaplayset.org/drizzlechair",
+        "http://www.nsaplayset.org/keysweeper",
+        "http://www.nsaplayset.org/leviticus",
+        "http://www.nsaplayset.org/openproblems",
+        "http://www.nsaplayset.org/ossmann_hitb2014.pdf",
+        "http://www.nsaplayset.org/porcupinemasquerade",
+        "http://www.nsaplayset.org/project-requirements",
+        "http://www.nsaplayset.org/saviorburst",
+        "http://www.nsaplayset.org/slotscreamer",
+        "http://www.nsaplayset.org/tinyalamo",
+        "http://www.nsaplayset.org/turnipschool",
+        "http://www.nsaplayset.org/twilightvegetable"
+      ]
+    }
+  ],
+  "mirror_links": [
+    {
+      "source_url": "http://gbppr.net/nsaplayset/chuckwagon/",
+      "href": "dc_22_diy_hardware_implant.pdf",
+      "mirror_url": "http://gbppr.net/nsaplayset/chuckwagon/dc_22_diy_hardware_implant.pdf",
+      "restored_path": "/chuckwagon/dc_22_diy_hardware_implant.pdf"
+    },
+    {
+      "source_url": "http://gbppr.net/nsaplayset/openproblems/",
+      "href": "../nsa_ant_catalog.pdf",
+      "mirror_url": "http://gbppr.net/nsaplayset/nsa_ant_catalog.pdf",
+      "restored_path": "/nsa_ant_catalog.pdf"
+    },
+    {
+      "source_url": "http://gbppr.net/nsaplayset/twilightvegetable/",
+      "href": "NSA-PLAYSET-GSM.pdf",
+      "mirror_url": "http://gbppr.net/nsaplayset/twilightvegetable/NSA-PLAYSET-GSM.pdf",
+      "restored_path": "/twilightvegetable/NSA-PLAYSET-GSM.pdf"
+    },
+    {
+      "source_url": "http://gbppr.net/nsaplayset/",
+      "href": "index.html",
+      "mirror_url": "http://gbppr.net/nsaplayset/index.html",
+      "restored_path": "/"
+    },
+    {
+      "source_url": "http://gbppr.net/nsaplayset/",
+      "href": "contributions/",
+      "mirror_url": "http://gbppr.net/nsaplayset/contributions/",
+      "restored_path": "/contributions/"
+    },
+    {
+      "source_url": "http://gbppr.net/nsaplayset/",
+      "href": "project-requirements/",
+      "mirror_url": "http://gbppr.net/nsaplayset/project-requirements/",
+      "restored_path": "/project-requirements/"
+    },
+    {
+      "source_url": "http://gbppr.net/nsaplayset/",
+      "href": "openproblems/",
+      "mirror_url": "http://gbppr.net/nsaplayset/openproblems/",
+      "restored_path": "/openproblems/"
+    },
+    {
+      "source_url": "http://gbppr.net/nsaplayset/",
+      "href": "twilightvegetable/",
+      "mirror_url": "http://gbppr.net/nsaplayset/twilightvegetable/",
+      "restored_path": "/twilightvegetable/"
+    },
+    {
+      "source_url": "http://gbppr.net/nsaplayset/",
+      "href": "leviticus/",
+      "mirror_url": "http://gbppr.net/nsaplayset/leviticus/",
+      "restored_path": "/leviticus/"
+    },
+    {
+      "source_url": "http://gbppr.net/nsaplayset/",
+      "href": "drizzlechair/",
+      "mirror_url": "http://gbppr.net/nsaplayset/drizzlechair/",
+      "restored_path": "/drizzlechair/"
+    },
+    {
+      "source_url": "http://gbppr.net/nsaplayset/",
+      "href": "porcupinemasquerade/",
+      "mirror_url": "http://gbppr.net/nsaplayset/porcupinemasquerade/",
+      "restored_path": "/porcupinemasquerade/"
+    },
+    {
+      "source_url": "http://gbppr.net/nsaplayset/",
+      "href": "keysweeper/",
+      "mirror_url": "http://gbppr.net/nsaplayset/keysweeper/",
+      "restored_path": "/keysweeper/"
+    },
+    {
+      "source_url": "http://gbppr.net/nsaplayset/",
+      "href": "slotscreamer/",
+      "mirror_url": "http://gbppr.net/nsaplayset/slotscreamer/",
+      "restored_path": "/slotscreamer/"
+    },
+    {
+      "source_url": "http://gbppr.net/nsaplayset/",
+      "href": "adapternoodle/",
+      "mirror_url": "http://gbppr.net/nsaplayset/adapternoodle/",
+      "restored_path": "/adapternoodle/"
+    },
+    {
+      "source_url": "http://gbppr.net/nsaplayset/",
+      "href": "chuckwagon/",
+      "mirror_url": "http://gbppr.net/nsaplayset/chuckwagon/",
+      "restored_path": "/chuckwagon/"
+    },
+    {
+      "source_url": "http://gbppr.net/nsaplayset/",
+      "href": "turnipschool/",
+      "mirror_url": "http://gbppr.net/nsaplayset/turnipschool/",
+      "restored_path": "/turnipschool/"
+    },
+    {
+      "source_url": "http://gbppr.net/nsaplayset/",
+      "href": "blinkercough/",
+      "mirror_url": "http://gbppr.net/nsaplayset/blinkercough/",
+      "restored_path": "/blinkercough/"
+    },
+    {
+      "source_url": "http://gbppr.net/nsaplayset/",
+      "href": "saviorburst/",
+      "mirror_url": "http://gbppr.net/nsaplayset/saviorburst/",
+      "restored_path": "/saviorburst/"
+    },
+    {
+      "source_url": "http://gbppr.net/nsaplayset/",
+      "href": "cactustutu/",
+      "mirror_url": "http://gbppr.net/nsaplayset/cactustutu/",
+      "restored_path": "/cactustutu/"
+    },
+    {
+      "source_url": "http://gbppr.net/nsaplayset/",
+      "href": "tinyalamo/",
+      "mirror_url": "http://gbppr.net/nsaplayset/tinyalamo/",
+      "restored_path": "/tinyalamo/"
+    },
+    {
+      "source_url": "http://gbppr.net/nsaplayset/",
+      "href": "congaflock/",
+      "mirror_url": "http://gbppr.net/nsaplayset/congaflock/",
+      "restored_path": "/congaflock/"
+    },
+    {
+      "source_url": "http://gbppr.net/nsaplayset/",
+      "href": "nsa_ant_catalog.pdf",
+      "mirror_url": "http://gbppr.net/nsaplayset/nsa_ant_catalog.pdf",
+      "restored_path": "/nsa_ant_catalog.pdf"
+    },
+    {
+      "source_url": "http://gbppr.net/nsaplayset/",
+      "href": "ossmann_hitb2014.pdf",
+      "mirror_url": "http://gbppr.net/nsaplayset/ossmann_hitb2014.pdf",
+      "restored_path": "/ossmann_hitb2014.pdf"
+    }
+  ],
+  "checks": [
+    {
+      "url": "http://www.nsaplayset.org/",
+      "expected_path": "/",
+      "kind": "html",
+      "reason": "observed-backlink",
+      "title": "NSA Playset"
+    },
+    {
+      "url": "http://www.nsaplayset.org/project-requirements",
+      "expected_path": "/project-requirements/",
+      "kind": "html",
+      "reason": "observed-backlink",
+      "title": "Project requirements \u2014 NSA Playset"
+    },
+    {
+      "url": "http://www.nsaplayset.org/twilightvegetable",
+      "expected_path": "/twilightvegetable/",
+      "kind": "html",
+      "reason": "observed-backlink",
+      "title": "TWILIGHTVEGETABLE \u2014 NSA Playset"
+    },
+    {
+      "url": "http://www.nsaplayset.org/porcupinemasquerade",
+      "expected_path": "/porcupinemasquerade/",
+      "kind": "html",
+      "reason": "observed-backlink",
+      "title": "PORCUPINEMASQUERADE \u2014 NSA Playset"
+    },
+    {
+      "url": "http://www.nsaplayset.org/openproblems",
+      "expected_path": "/openproblems/",
+      "kind": "html",
+      "reason": "observed-backlink",
+      "title": "Open problems \u2014 NSA Playset"
+    },
+    {
+      "url": "http://nsaplayset.org",
+      "expected_path": "/",
+      "kind": "html",
+      "reason": "observed-backlink",
+      "title": "NSA Playset"
+    },
+    {
+      "url": "https://nsaplayset.org/chuckwagon/dc_22_diy_hardware_implant.pdf",
+      "expected_path": "/chuckwagon/dc_22_diy_hardware_implant.pdf",
+      "kind": "pdf",
+      "reason": "recovered-mirror-route"
+    },
+    {
+      "url": "https://nsaplayset.org/nsa_ant_catalog.pdf",
+      "expected_path": "/nsa_ant_catalog.pdf",
+      "kind": "pdf",
+      "reason": "recovered-mirror-route"
+    },
+    {
+      "url": "https://nsaplayset.org/twilightvegetable/NSA-PLAYSET-GSM.pdf",
+      "expected_path": "/twilightvegetable/NSA-PLAYSET-GSM.pdf",
+      "kind": "pdf",
+      "reason": "recovered-mirror-route"
+    },
+    {
+      "url": "https://nsaplayset.org/",
+      "expected_path": "/",
+      "kind": "html",
+      "reason": "recovered-mirror-route",
+      "title": "NSA Playset"
+    },
+    {
+      "url": "https://nsaplayset.org/contributions/",
+      "expected_path": "/contributions/",
+      "kind": "html",
+      "reason": "recovered-mirror-route",
+      "title": "Contribute \u2014 NSA Playset"
+    },
+    {
+      "url": "https://nsaplayset.org/project-requirements/",
+      "expected_path": "/project-requirements/",
+      "kind": "html",
+      "reason": "recovered-mirror-route",
+      "title": "Project requirements \u2014 NSA Playset"
+    },
+    {
+      "url": "https://nsaplayset.org/openproblems/",
+      "expected_path": "/openproblems/",
+      "kind": "html",
+      "reason": "recovered-mirror-route",
+      "title": "Open problems \u2014 NSA Playset"
+    },
+    {
+      "url": "https://nsaplayset.org/twilightvegetable/",
+      "expected_path": "/twilightvegetable/",
+      "kind": "html",
+      "reason": "recovered-mirror-route",
+      "title": "TWILIGHTVEGETABLE \u2014 NSA Playset"
+    },
+    {
+      "url": "https://nsaplayset.org/leviticus/",
+      "expected_path": "/leviticus/",
+      "kind": "html",
+      "reason": "recovered-mirror-route",
+      "title": "LEVITICUS \u2014 NSA Playset"
+    },
+    {
+      "url": "https://nsaplayset.org/drizzlechair/",
+      "expected_path": "/drizzlechair/",
+      "kind": "html",
+      "reason": "recovered-mirror-route",
+      "title": "DRIZZLECHAIR \u2014 NSA Playset"
+    },
+    {
+      "url": "https://nsaplayset.org/porcupinemasquerade/",
+      "expected_path": "/porcupinemasquerade/",
+      "kind": "html",
+      "reason": "recovered-mirror-route",
+      "title": "PORCUPINEMASQUERADE \u2014 NSA Playset"
+    },
+    {
+      "url": "https://nsaplayset.org/keysweeper/",
+      "expected_path": "/keysweeper/",
+      "kind": "html",
+      "reason": "recovered-mirror-route",
+      "title": "KEYSWEEPER \u2014 NSA Playset"
+    },
+    {
+      "url": "https://nsaplayset.org/slotscreamer/",
+      "expected_path": "/slotscreamer/",
+      "kind": "html",
+      "reason": "recovered-mirror-route",
+      "title": "SLOTSCREAMER \u2014 NSA Playset"
+    },
+    {
+      "url": "https://nsaplayset.org/adapternoodle/",
+      "expected_path": "/adapternoodle/",
+      "kind": "html",
+      "reason": "recovered-mirror-route",
+      "title": "ADAPTERNOODLE \u2014 NSA Playset"
+    },
+    {
+      "url": "https://nsaplayset.org/chuckwagon/",
+      "expected_path": "/chuckwagon/",
+      "kind": "html",
+      "reason": "recovered-mirror-route",
+      "title": "CHUCKWAGON \u2014 NSA Playset"
+    },
+    {
+      "url": "https://nsaplayset.org/turnipschool/",
+      "expected_path": "/turnipschool/",
+      "kind": "html",
+      "reason": "recovered-mirror-route",
+      "title": "TURNIPSCHOOL \u2014 NSA Playset"
+    },
+    {
+      "url": "https://nsaplayset.org/blinkercough/",
+      "expected_path": "/blinkercough/",
+      "kind": "html",
+      "reason": "recovered-mirror-route",
+      "title": "BLINKERCOUGH \u2014 NSA Playset"
+    },
+    {
+      "url": "https://nsaplayset.org/saviorburst/",
+      "expected_path": "/saviorburst/",
+      "kind": "html",
+      "reason": "recovered-mirror-route",
+      "title": "SAVIORBURST \u2014 NSA Playset"
+    },
+    {
+      "url": "https://nsaplayset.org/cactustutu/",
+      "expected_path": "/cactustutu/",
+      "kind": "html",
+      "reason": "recovered-mirror-route",
+      "title": "CACTUSTUTU \u2014 NSA Playset"
+    },
+    {
+      "url": "https://nsaplayset.org/tinyalamo/",
+      "expected_path": "/tinyalamo/",
+      "kind": "html",
+      "reason": "recovered-mirror-route",
+      "title": "TINYALAMO \u2014 NSA Playset"
+    },
+    {
+      "url": "https://nsaplayset.org/congaflock/",
+      "expected_path": "/congaflock/",
+      "kind": "html",
+      "reason": "recovered-mirror-route",
+      "title": "CONGAFLOCK \u2014 NSA Playset"
+    },
+    {
+      "url": "https://nsaplayset.org/ossmann_hitb2014.pdf",
+      "expected_path": "/ossmann_hitb2014.pdf",
+      "kind": "pdf",
+      "reason": "recovered-mirror-route"
+    },
+    {
+      "url": "http://nsaplayset.org/",
+      "expected_path": "/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "NSA Playset"
+    },
+    {
+      "url": "https://www.nsaplayset.org/",
+      "expected_path": "/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "NSA Playset"
+    },
+    {
+      "url": "http://nsaplayset.org/project-requirements",
+      "expected_path": "/project-requirements/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "Project requirements \u2014 NSA Playset"
+    },
+    {
+      "url": "https://nsaplayset.org/project-requirements",
+      "expected_path": "/project-requirements/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "Project requirements \u2014 NSA Playset"
+    },
+    {
+      "url": "https://www.nsaplayset.org/project-requirements",
+      "expected_path": "/project-requirements/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "Project requirements \u2014 NSA Playset"
+    },
+    {
+      "url": "http://nsaplayset.org/openproblems",
+      "expected_path": "/openproblems/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "Open problems \u2014 NSA Playset"
+    },
+    {
+      "url": "https://nsaplayset.org/openproblems",
+      "expected_path": "/openproblems/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "Open problems \u2014 NSA Playset"
+    },
+    {
+      "url": "https://www.nsaplayset.org/openproblems",
+      "expected_path": "/openproblems/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "Open problems \u2014 NSA Playset"
+    },
+    {
+      "url": "http://nsaplayset.org/contributions",
+      "expected_path": "/contributions/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "Contribute \u2014 NSA Playset"
+    },
+    {
+      "url": "http://www.nsaplayset.org/contributions",
+      "expected_path": "/contributions/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "Contribute \u2014 NSA Playset"
+    },
+    {
+      "url": "https://nsaplayset.org/contributions",
+      "expected_path": "/contributions/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "Contribute \u2014 NSA Playset"
+    },
+    {
+      "url": "https://www.nsaplayset.org/contributions",
+      "expected_path": "/contributions/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "Contribute \u2014 NSA Playset"
+    },
+    {
+      "url": "http://nsaplayset.org/archive",
+      "expected_path": "/archive/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "Archive & sources \u2014 NSA Playset"
+    },
+    {
+      "url": "http://www.nsaplayset.org/archive",
+      "expected_path": "/archive/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "Archive & sources \u2014 NSA Playset"
+    },
+    {
+      "url": "https://nsaplayset.org/archive",
+      "expected_path": "/archive/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "Archive & sources \u2014 NSA Playset"
+    },
+    {
+      "url": "https://www.nsaplayset.org/archive",
+      "expected_path": "/archive/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "Archive & sources \u2014 NSA Playset"
+    },
+    {
+      "url": "http://nsaplayset.org/about",
+      "expected_path": "/about/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "About the NSA Playset \u2014 NSA Playset"
+    },
+    {
+      "url": "http://www.nsaplayset.org/about",
+      "expected_path": "/about/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "About the NSA Playset \u2014 NSA Playset"
+    },
+    {
+      "url": "https://nsaplayset.org/about",
+      "expected_path": "/about/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "About the NSA Playset \u2014 NSA Playset"
+    },
+    {
+      "url": "https://www.nsaplayset.org/about",
+      "expected_path": "/about/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "About the NSA Playset \u2014 NSA Playset"
+    },
+    {
+      "url": "http://nsaplayset.org/congaflock",
+      "expected_path": "/congaflock/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "CONGAFLOCK \u2014 NSA Playset"
+    },
+    {
+      "url": "http://www.nsaplayset.org/congaflock",
+      "expected_path": "/congaflock/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "CONGAFLOCK \u2014 NSA Playset"
+    },
+    {
+      "url": "https://nsaplayset.org/congaflock",
+      "expected_path": "/congaflock/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "CONGAFLOCK \u2014 NSA Playset"
+    },
+    {
+      "url": "https://www.nsaplayset.org/congaflock",
+      "expected_path": "/congaflock/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "CONGAFLOCK \u2014 NSA Playset"
+    },
+    {
+      "url": "http://nsaplayset.org/slotscreamer",
+      "expected_path": "/slotscreamer/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "SLOTSCREAMER \u2014 NSA Playset"
+    },
+    {
+      "url": "http://www.nsaplayset.org/slotscreamer",
+      "expected_path": "/slotscreamer/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "SLOTSCREAMER \u2014 NSA Playset"
+    },
+    {
+      "url": "https://nsaplayset.org/slotscreamer",
+      "expected_path": "/slotscreamer/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "SLOTSCREAMER \u2014 NSA Playset"
+    },
+    {
+      "url": "https://www.nsaplayset.org/slotscreamer",
+      "expected_path": "/slotscreamer/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "SLOTSCREAMER \u2014 NSA Playset"
+    },
+    {
+      "url": "http://nsaplayset.org/cactustutu",
+      "expected_path": "/cactustutu/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "CACTUSTUTU \u2014 NSA Playset"
+    },
+    {
+      "url": "http://www.nsaplayset.org/cactustutu",
+      "expected_path": "/cactustutu/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "CACTUSTUTU \u2014 NSA Playset"
+    },
+    {
+      "url": "https://nsaplayset.org/cactustutu",
+      "expected_path": "/cactustutu/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "CACTUSTUTU \u2014 NSA Playset"
+    },
+    {
+      "url": "https://www.nsaplayset.org/cactustutu",
+      "expected_path": "/cactustutu/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "CACTUSTUTU \u2014 NSA Playset"
+    },
+    {
+      "url": "http://nsaplayset.org/halibutdugout",
+      "expected_path": "/halibutdugout/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "HALIBUTDUGOUT \u2014 NSA Playset"
+    },
+    {
+      "url": "http://www.nsaplayset.org/halibutdugout",
+      "expected_path": "/halibutdugout/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "HALIBUTDUGOUT \u2014 NSA Playset"
+    },
+    {
+      "url": "https://nsaplayset.org/halibutdugout",
+      "expected_path": "/halibutdugout/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "HALIBUTDUGOUT \u2014 NSA Playset"
+    },
+    {
+      "url": "https://www.nsaplayset.org/halibutdugout",
+      "expected_path": "/halibutdugout/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "HALIBUTDUGOUT \u2014 NSA Playset"
+    },
+    {
+      "url": "http://nsaplayset.org/porcupinemasquerade",
+      "expected_path": "/porcupinemasquerade/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "PORCUPINEMASQUERADE \u2014 NSA Playset"
+    },
+    {
+      "url": "https://nsaplayset.org/porcupinemasquerade",
+      "expected_path": "/porcupinemasquerade/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "PORCUPINEMASQUERADE \u2014 NSA Playset"
+    },
+    {
+      "url": "https://www.nsaplayset.org/porcupinemasquerade",
+      "expected_path": "/porcupinemasquerade/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "PORCUPINEMASQUERADE \u2014 NSA Playset"
+    },
+    {
+      "url": "http://nsaplayset.org/adapternoodle",
+      "expected_path": "/adapternoodle/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "ADAPTERNOODLE \u2014 NSA Playset"
+    },
+    {
+      "url": "http://www.nsaplayset.org/adapternoodle",
+      "expected_path": "/adapternoodle/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "ADAPTERNOODLE \u2014 NSA Playset"
+    },
+    {
+      "url": "https://nsaplayset.org/adapternoodle",
+      "expected_path": "/adapternoodle/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "ADAPTERNOODLE \u2014 NSA Playset"
+    },
+    {
+      "url": "https://www.nsaplayset.org/adapternoodle",
+      "expected_path": "/adapternoodle/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "ADAPTERNOODLE \u2014 NSA Playset"
+    },
+    {
+      "url": "http://nsaplayset.org/turnipschool",
+      "expected_path": "/turnipschool/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "TURNIPSCHOOL \u2014 NSA Playset"
+    },
+    {
+      "url": "http://www.nsaplayset.org/turnipschool",
+      "expected_path": "/turnipschool/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "TURNIPSCHOOL \u2014 NSA Playset"
+    },
+    {
+      "url": "https://nsaplayset.org/turnipschool",
+      "expected_path": "/turnipschool/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "TURNIPSCHOOL \u2014 NSA Playset"
+    },
+    {
+      "url": "https://www.nsaplayset.org/turnipschool",
+      "expected_path": "/turnipschool/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "TURNIPSCHOOL \u2014 NSA Playset"
+    },
+    {
+      "url": "http://nsaplayset.org/chuckwagon",
+      "expected_path": "/chuckwagon/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "CHUCKWAGON \u2014 NSA Playset"
+    },
+    {
+      "url": "http://www.nsaplayset.org/chuckwagon",
+      "expected_path": "/chuckwagon/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "CHUCKWAGON \u2014 NSA Playset"
+    },
+    {
+      "url": "https://nsaplayset.org/chuckwagon",
+      "expected_path": "/chuckwagon/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "CHUCKWAGON \u2014 NSA Playset"
+    },
+    {
+      "url": "https://www.nsaplayset.org/chuckwagon",
+      "expected_path": "/chuckwagon/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "CHUCKWAGON \u2014 NSA Playset"
+    },
+    {
+      "url": "http://nsaplayset.org/leviticus",
+      "expected_path": "/leviticus/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "LEVITICUS \u2014 NSA Playset"
+    },
+    {
+      "url": "http://www.nsaplayset.org/leviticus",
+      "expected_path": "/leviticus/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "LEVITICUS \u2014 NSA Playset"
+    },
+    {
+      "url": "https://nsaplayset.org/leviticus",
+      "expected_path": "/leviticus/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "LEVITICUS \u2014 NSA Playset"
+    },
+    {
+      "url": "https://www.nsaplayset.org/leviticus",
+      "expected_path": "/leviticus/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "LEVITICUS \u2014 NSA Playset"
+    },
+    {
+      "url": "http://nsaplayset.org/twilightvegetable",
+      "expected_path": "/twilightvegetable/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "TWILIGHTVEGETABLE \u2014 NSA Playset"
+    },
+    {
+      "url": "https://nsaplayset.org/twilightvegetable",
+      "expected_path": "/twilightvegetable/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "TWILIGHTVEGETABLE \u2014 NSA Playset"
+    },
+    {
+      "url": "https://www.nsaplayset.org/twilightvegetable",
+      "expected_path": "/twilightvegetable/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "TWILIGHTVEGETABLE \u2014 NSA Playset"
+    },
+    {
+      "url": "http://nsaplayset.org/saviorburst",
+      "expected_path": "/saviorburst/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "SAVIORBURST \u2014 NSA Playset"
+    },
+    {
+      "url": "http://www.nsaplayset.org/saviorburst",
+      "expected_path": "/saviorburst/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "SAVIORBURST \u2014 NSA Playset"
+    },
+    {
+      "url": "https://nsaplayset.org/saviorburst",
+      "expected_path": "/saviorburst/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "SAVIORBURST \u2014 NSA Playset"
+    },
+    {
+      "url": "https://www.nsaplayset.org/saviorburst",
+      "expected_path": "/saviorburst/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "SAVIORBURST \u2014 NSA Playset"
+    },
+    {
+      "url": "http://nsaplayset.org/tinyalamo",
+      "expected_path": "/tinyalamo/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "TINYALAMO \u2014 NSA Playset"
+    },
+    {
+      "url": "http://www.nsaplayset.org/tinyalamo",
+      "expected_path": "/tinyalamo/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "TINYALAMO \u2014 NSA Playset"
+    },
+    {
+      "url": "https://nsaplayset.org/tinyalamo",
+      "expected_path": "/tinyalamo/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "TINYALAMO \u2014 NSA Playset"
+    },
+    {
+      "url": "https://www.nsaplayset.org/tinyalamo",
+      "expected_path": "/tinyalamo/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "TINYALAMO \u2014 NSA Playset"
+    },
+    {
+      "url": "http://nsaplayset.org/alloyviper",
+      "expected_path": "/alloyviper/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "ALLOYVIPER \u2014 NSA Playset"
+    },
+    {
+      "url": "http://www.nsaplayset.org/alloyviper",
+      "expected_path": "/alloyviper/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "ALLOYVIPER \u2014 NSA Playset"
+    },
+    {
+      "url": "https://nsaplayset.org/alloyviper",
+      "expected_path": "/alloyviper/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "ALLOYVIPER \u2014 NSA Playset"
+    },
+    {
+      "url": "https://www.nsaplayset.org/alloyviper",
+      "expected_path": "/alloyviper/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "ALLOYVIPER \u2014 NSA Playset"
+    },
+    {
+      "url": "http://nsaplayset.org/drizzlechair",
+      "expected_path": "/drizzlechair/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "DRIZZLECHAIR \u2014 NSA Playset"
+    },
+    {
+      "url": "http://www.nsaplayset.org/drizzlechair",
+      "expected_path": "/drizzlechair/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "DRIZZLECHAIR \u2014 NSA Playset"
+    },
+    {
+      "url": "https://nsaplayset.org/drizzlechair",
+      "expected_path": "/drizzlechair/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "DRIZZLECHAIR \u2014 NSA Playset"
+    },
+    {
+      "url": "https://www.nsaplayset.org/drizzlechair",
+      "expected_path": "/drizzlechair/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "DRIZZLECHAIR \u2014 NSA Playset"
+    },
+    {
+      "url": "http://nsaplayset.org/blinkercough",
+      "expected_path": "/blinkercough/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "BLINKERCOUGH \u2014 NSA Playset"
+    },
+    {
+      "url": "http://www.nsaplayset.org/blinkercough",
+      "expected_path": "/blinkercough/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "BLINKERCOUGH \u2014 NSA Playset"
+    },
+    {
+      "url": "https://nsaplayset.org/blinkercough",
+      "expected_path": "/blinkercough/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "BLINKERCOUGH \u2014 NSA Playset"
+    },
+    {
+      "url": "https://www.nsaplayset.org/blinkercough",
+      "expected_path": "/blinkercough/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "BLINKERCOUGH \u2014 NSA Playset"
+    },
+    {
+      "url": "http://nsaplayset.org/keysweeper",
+      "expected_path": "/keysweeper/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "KEYSWEEPER \u2014 NSA Playset"
+    },
+    {
+      "url": "http://www.nsaplayset.org/keysweeper",
+      "expected_path": "/keysweeper/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "KEYSWEEPER \u2014 NSA Playset"
+    },
+    {
+      "url": "https://nsaplayset.org/keysweeper",
+      "expected_path": "/keysweeper/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "KEYSWEEPER \u2014 NSA Playset"
+    },
+    {
+      "url": "https://www.nsaplayset.org/keysweeper",
+      "expected_path": "/keysweeper/",
+      "kind": "html",
+      "reason": "hostname-and-protocol-regression",
+      "title": "KEYSWEEPER \u2014 NSA Playset"
+    },
+    {
+      "url": "http://www.nsaplayset.org/porcupinemasquerade?ref=wiki%20audit&x=1#sources",
+      "expected_path": "/porcupinemasquerade/",
+      "kind": "html",
+      "reason": "query-and-fragment-regression",
+      "title": "PORCUPINEMASQUERADE \u2014 NSA Playset"
+    },
+    {
+      "url": "http://www.nsaplayset.org/index.html",
+      "expected_path": "/",
+      "kind": "html",
+      "reason": "legacy-index-regression",
+      "title": "NSA Playset"
+    },
+    {
+      "expected_path": "/ossmann_hitb2014.pdf",
+      "kind": "pdf",
+      "url": "http://www.nsaplayset.org/ossmann_hitb2014.pdf",
+      "reason": "archived-or-printed-original-url"
+    },
+    {
+      "expected_path": "/nsa_ant_catalog.pdf",
+      "kind": "pdf",
+      "url": "http://www.nsaplayset.org/nsa_ant_catalog.pdf",
+      "reason": "archived-or-printed-original-url"
+    }
+  ],
+  "mirror_download_checks": [
+    {
+      "url": "http://gbppr.net/nsaplayset/chuckwagon/CHUCKWAGON.tgz",
+      "status": 200,
+      "bytes": 46440
+    },
+    {
+      "url": "http://gbppr.net/nsaplayset/saviorburst/SAVIORBURST.tgz",
+      "status": 200,
+      "bytes": 3428699
+    },
+    {
+      "url": "http://gbppr.net/nsaplayset/slotscreamer/SLOTSCREAMER.tgz",
+      "status": 200,
+      "bytes": 37935931
+    },
+    {
+      "url": "http://gbppr.net/nsaplayset/twilightvegetable/TWILIGHTVEGETABLE.tgz",
+      "status": 200,
+      "bytes": 514776
+    }
+  ],
+  "notes": [
+    "Archive wrappers are checked as third-party sources; their original embedded URLs are tested separately against the restored site.",
+    "Mirror-local .tgz downloads were checked at the mirror. They were not found as nsaplayset.org backlinks and have not been copied or assigned new first-party URLs.",
+    "Source failures are distinct from first-party destination failures; HTTP errors or unavailable TLS do not establish whether those inaccessible pages contain additional links."
+  ]
+}

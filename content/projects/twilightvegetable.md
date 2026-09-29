@@ -14,8 +14,8 @@ credits = "Dean Pierce and Loki (Nick Jacobsen)"
 label = "Historical project mirror"
 url = "http://gbppr.net/nsaplayset/twilightvegetable/"
 [[extra.sources]]
-label = "Original GSM presentation (mirror)"
-url = "http://gbppr.net/nsaplayset/twilightvegetable/NSA-PLAYSET-GSM.pdf"
+label = "Original GSM presentation"
+url = "/twilightvegetable/NSA-PLAYSET-GSM.pdf"
 
 [[extra.gallery]]
 path = "/images/archive/projects/twilightvegetable-airprobe.png"

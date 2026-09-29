@@ -8,11 +8,13 @@ from pathlib import Path
 from urllib.parse import urlsplit, unquote, urljoin
 import csv
 import argparse
+import hashlib
+import json
 
 parser = argparse.ArgumentParser(description=__doc__)
 parser.add_argument('--base-url', default='https://nsaplayset.org')
 base_url = parser.parse_args().base_url.rstrip('/')
-local_hosts = {'nsaplayset.org', urlsplit(base_url).netloc}
+local_hosts = {'nsaplayset.org', 'www.nsaplayset.org', urlsplit(base_url).netloc}
 
 ROOT = Path(__file__).resolve().parents[1]
 PUBLIC = ROOT / 'public'
@@ -86,6 +88,16 @@ for source in redirects:
 with (ROOT / 'docs/legacy-urls.csv').open() as file:
     for row in csv.DictReader(file):
         check_url(row['path'], 'legacy-urls.csv')
+for item in json.loads((ROOT / 'docs/inbound-links.json').read_text())['checks']:
+    check_url(item['url'], 'inbound-links.json')
+for item in json.loads((ROOT / 'docs/downloads.json').read_text()):
+    target = resolve(item['path'])
+    if not target:
+        errors.append(f"downloads.json: missing {item['path']}")
+        continue
+    data = target.read_bytes()
+    if len(data) != item['bytes'] or hashlib.sha256(data).hexdigest() != item['sha256']:
+        errors.append(f"downloads.json: changed original bytes at {item['path']}")
 if errors:
     raise SystemExit('\n'.join(errors))
 print(f'PASS: {len(documents)} HTML pages, {len(redirects)} redirects, local assets, fragments and legacy routes')
