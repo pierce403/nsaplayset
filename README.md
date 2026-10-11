@@ -21,6 +21,12 @@ bash scripts/build.sh
 
 The build installs the pinned Zola if needed, generates `public/`, and checks local links, redirects, and JavaScript syntax. Requires Linux x86_64, Bash, curl, tar, Python 3.11+, and Node.js 22+. Generated output is ignored by Git. To view the output, run `python3 -m http.server --directory public 8000` and open http://localhost:8000. Local Python serving does not apply Cloudflare `_redirects` or `_headers`; those are validated structurally by the checker and take effect on Cloudflare.
 
+## Social previews
+
+Every page includes Open Graph and Twitter large-image metadata with its own title, description, and canonical URL. The shared 1200×630 card at `static/images/og-preview.png` uses the original wordmark and kid-with-laptop illustration. Image URLs follow the production or preview build base URL.
+
+To regenerate the checked-in card, run `python3 scripts/make-og-preview.py` on Linux with Pillow, DejaVu fonts, and URW Base 35 fonts installed. These are optional artwork dependencies; normal site builds use the checked-in PNG.
+
 ## Cloudflare Pages
 
 Pages project `nsaplayset` is connected to `pierce403/nsaplayset`. Pushes to `main` automatically build and deploy with:
