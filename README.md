@@ -76,7 +76,7 @@ Use `[[extra.resources]]` entries for videos, code and schematics, components, a
 
 The catalog contains the fourteen projects in the original navigation plus HALIBUTDUGOUT and ALLOYVIPER. The original site wordmark and pencil illustration, plus 11 project photographs and diagrams, have been recovered. Image origins, credits, dimensions, and hashes are recorded in `docs/site-graphics.json` and `docs/project-graphics.json`. Four original PDFs are served at their historical mirror paths, with provenance and byte hashes in `docs/downloads.json`.
 
-The requirements headings and Open Problems research list were recovered from the old site; requirements explanations are concise summaries. Original contributor names and project summaries have linked provenance. No license for third-party hardware, code, or media is implied; upstream licenses apply. A license for the new site code has intentionally not been selected on the owner's behalf.
+The requirements headings and Open Problems research list were recovered from the old site; requirements explanations are concise summaries. Original contributor names and project summaries have linked provenance. No license for third-party hardware, code, or media is implied; upstream licenses apply. The original new site code is licensed under Apache-2.0; see [LICENSE](LICENSE). Recovered photographs, diagrams, PDFs, wordmarks, illustrations, and third-party project material are excluded from that grant and retain their existing rights.
 
 ## Inbound-link audit
 
@@ -93,3 +93,9 @@ This checks only the recorded first-party URLs. It does not crawl third-party si
 ## Contributing code
 
 Clone `https://github.com/pierce403/nsaplayset.git`, edit the Markdown or templates, and run the checks above. Do not commit `public/` or `.tools/`.
+
+## License
+
+Copyright 2026 Dean Pierce.
+
+The original code and documentation authored for this project are licensed under the [Apache License, Version 2.0](LICENSE). Third-party dependencies, quoted source material, data, fonts, media, and other third-party assets retain their respective licenses and rights; this grant does not relicense them.
